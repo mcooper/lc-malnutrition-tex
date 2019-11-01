@@ -49,7 +49,34 @@ Thus, as cropland expands into previously uncultivated areas in Africa due to pr
 \subsection{Sustainable Livelihoods Approach}
 One framework for assessing how rural agrarian peoples respond to shocks is the Sustainable Livelihoods Approach (SLA), which emerged in the 1990’s as a way to understand how impoverished agricultural people maximize their access to various capitals in order to ensure the sustainability and resilience of their livelihoods in the face of risks and challenges \cite{Scoones1998a, Ellis1998, Bebbington1999}.  One defining feature of SLA is that it views people as agents working actively to maximize their overall well-being rather than just passive victims of a specific political or environmental context \cite{Adato2002}.  Scoones originally identified four types of capital that communities utilize to further their livelihood goals: natural capital, financial capital, human capital, and social capital, although there are many other types of capital that communities use as well \cite{Scoones1998a}.  For this analysis, we view drought vulnerability as determined, in part, by peoples geographic access to natural capital as well as market based capitals.
 
-\section{Variables}
+\section{Data Sources}
+
+\subsection{Nutrition Data}
+
+For this analysis, we use data from Demographic and Health Surveys (DHS) from throughout Africa.  The DHS is often considered the ``gold standard'' of data on health and nutrition from developing countries and is often used in environmental health studies, because the data GPS coordinates associated with each DHS site make it possible to infer the environmental context at the time and location of the survey \cite{Brown2014}.  We utilize all surveys from sub-Saharan Africa that meet the following criteria: (1) they have geolocated coordinates, to facilitate the extraction of climate conditions and local land cover at the site of each DHS site, (2) they have data on child nutrition outcomes, and (3) they have data on relevant household and individual co-variates of malnutrition.
+
+As our metric of child nutrition, we use Height-for-Age Z-Scores (HAZ Scores).  This is an indicator of stunting, a consequence of long-term malnutrition, and has been collected in the majority of DHS surveys for decades.  HAZ Scores are derived by comparing the height of a child under five years of age to the distribution of heights of well-nourished children of the same age and gender, and then deriving a Z-score.  While natural variation in human height makes it impossible to diagnose any one individual as stunted \cite{Perumal2018}, stunting can be defined at the population level as the percentage of a population with an HAZ score less than -2, and severe stunting is the percentage of a population with an HAZ score less than -3.  While human populations do vary in potential attainable height, for children under 5, differences in height are mostly explained by environmental and dietary conditions \cite{Habicht1974}.
+
+\subsection{Drought Data}
+For our data on drought, we use precipitation data from the Climate Hazards Infrared Precipitation with Stations (CHIRPS) dataset \cite{Funk2015}, and for temperature we use a re-analysis dataset \cite{Sheffield2006}.  Because direct observations of long-term climate conditions in Africa are scarce, both of these datasets rely on remote sensing as well as modeling to infer meteorological conditions across space.
+
+Using monthly estimates of precipitation as well as average daily monthly maximum and minimum temperatures, we calculate the monthly water balance using the Hargreaves method \cite{Hargreaves1982} and then derive the 24-month Standardized Precipitation-Evapotranspiration Index (SPEI) \cite{Begueria2014}.  This metric compares the water balance over the previous 24 months and compares it to long-term trends in that location, deriving an index that can be interpreted like a Z-Score.  In previous studies of precipitation anomalies and child malnutrition, the SPEI calculated for the 24 months before a survey was the best predictor of child health outcomes \cite{Cooper2019Mapping}.
+
+\subsection{Land Cover}
+For data on land cover near a DHS site, we use a dataset created by the European Space Agency Climate Change Initiative \cite{Defourny2017}, which is available annually for the years 1992 to 2015 at a 300m resolution for 22 distinct land cover classes.  For uncultivated land providing regulating, supporting, and communal provisioning ecosystem services, we use all forms of tree, shrub and herbaceous cover, as well as shrubland, grassland, and water bodies.  Additionally, for mosaic landcover types with both cropland and natural vegetation, we counted each pixel as cultivated if it contained more than 50\% cropland and uncultivated if it contained less than 50\% cropland.  Finally, we do not count urban, bare, or permanent snow and ice areas as uncultivated land, as they do not provide most of the local ecosystem services that uncultivated landcover types do.
+
+As our metric for the availability of ecosystem services, we determine the fraction of land within 25 km of each DHS site that was uncultivated at the time of the survey.  We use a 25 km radius for two reasons.  For one, DHS sites are spatially distorted to preserve respondent anonymity, with 99\% of sites displaced by up to 5 km and 1\% of sites displaces by up to 10 km.  Thus, a 25 km radius more accurately captures landscape-scale land cover characteristics, because the land cover in the immediate vicinity of a community can't be known.  We also focus on a 25 km, landscape-scale area because many ecosystem services take place over large scales, with MORE DETAILS ON ECOSYSTEM SERVICES AND SCALES
+
+
+\subsection{Agro-Ecological Zones}
+
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.8\linewidth]{AEZ_Sites.png}
+	\caption{Agro-Ecological Zones and DHS sites included in the study.}
+	\label{fig:AEZmap}
+\end{figure}
 
 Rainfall at 24 month SPEI, why??
 
