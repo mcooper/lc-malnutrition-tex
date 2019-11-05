@@ -7,6 +7,12 @@ Adato, M. and Meinzen-Dick, R. (2002).
 \newblock {\em FCND Discussion Paper$\backslash$rEPTD Discussion Paper},
   (128):57.
 
+\bibitem[Arku and Arku, 2010]{Arku2010}
+Arku, F.~S. and Arku, C. (2010).
+\newblock {I cannot drink water on an empty stomach: A gender perspective on
+  living with drought}.
+\newblock {\em Gender and Development}.
+
 \bibitem[Bebbington, 1999]{Bebbington1999}
 Bebbington, A. (1999).
 \newblock {Capitals and Capabilities, A Framework for Analyzing and rural
@@ -31,6 +37,13 @@ Brown, M.~E., Grace, K., Shively, G., Johnson, K.~B., and Carroll, M. (2014).
 \newblock {Using satellite remote sensing and household survey data to assess
   human health and nutrition response to environmental change}.
 \newblock {\em Population and environment}, 36(1):48--72.
+
+\bibitem[Cooper et~al., 2018]{Cooper2018a}
+Cooper, M., Zvoleff, A., Gonzalez-Roglich, M., Tusiime, F., Musumba, M., Noon,
+  M., Alele, P., and Nyiratuza, M. (2018).
+\newblock {Geographic factors predict wild food and nonfood NTFP collection by
+  households across four African countries}.
+\newblock {\em Forest Policy and Economics}.
 
 \bibitem[Cooper et~al., 2019]{Cooper2019Mapping}
 Cooper, M.~W., Brown, M.~E., Hochrainer-Stigler, S., Pflug, G., McCallum, I.,
@@ -62,9 +75,31 @@ FAO, IFAD, UNICEFF, WFP, and WHO (2018).
   climate resilience for food security and nutrition}.
 \newblock Technical report, FAO, Rome.
 
+\bibitem[Felardo and Lippitt, 2016]{Felardo2016}
+Felardo, J. and Lippitt, C.~D. (2016).
+\newblock {Spatial forest valuation: The role of location in determining
+  attitudes toward payment for ecosystem services policies}.
+\newblock {\em Forest Policy and Economics}.
+
+\bibitem[Fischer et~al., 2006]{Fischer2006}
+Fischer, G., Shah, M., Van, H., and Nachtergaele, F. (2006).
+\newblock {Agro-Ecological Zones Assessment}.
+\newblock {\em Life Support Systems}.
+
 \bibitem[Fisher and {Kerry Turner}, 2008]{Fisher2008}
 Fisher, B. and {Kerry Turner}, R. (2008).
 \newblock {Ecosystem services: Classification for valuation}.
+
+\bibitem[Fong et~al., 2018a]{Fong2018}
+Fong, C., Hazlettand, C., and Imai, K. (2018a).
+\newblock {Covariate balancing propensity score for a continuous treatment:
+  Application to the efficacy of political advertisements}.
+\newblock {\em Annals of Applied Statistics}.
+
+\bibitem[Fong et~al., 2018b]{Fong2018a}
+Fong, C., Ratkovic, M., Imai, K., Hazlett, C., Yang, X., and Peng, S. (2018b).
+\newblock {Package 'CBPS'}.
+\newblock {\em The Comprehensive R Archive Network}.
 
 \bibitem[Funk et~al., 2015]{Funk2015}
 Funk, C., Peterson, P., Landsfeld, M., Pedreros, D., Verdin, J., Shukla, S.,
@@ -87,6 +122,12 @@ Golden, C.~D., Fernald, L. C.~H., Brashares, J.~S., Rasolofoniaina, B. J.~R.,
 \newblock {\em Proceedings of the National Academy of Sciences},
   108(49):19653--19656.
 
+\bibitem[Grace et~al., 2012]{Grace2012}
+Grace, K., Davenport, F., Funk, C., and Lerner, A.~M. (2012).
+\newblock {Child malnutrition and climate in Sub-Saharan Africa: An analysis of
+  recent trends in Kenya}.
+\newblock {\em Applied Geography}.
+
 \bibitem[Habicht et~al., 1974]{Habicht1974}
 Habicht, J.~P., Martorell, R., Yarbrough, C., Malina, R.~M., and Klein, R.~E.
   (1974).
@@ -99,6 +140,11 @@ Hargreaves, G.~H. and Samani, Z.~A. (1982).
 \newblock {Estimating Potential Evapotranspiration}.
 \newblock {\em Journal of the Irrigation and Drainage Division}.
 
+\bibitem[Hastie and Tibshirani, 1986]{Hastie1986}
+Hastie, T. and Tibshirani, R. (1986).
+\newblock {Generalized additive models}.
+\newblock {\em Statistical Science}.
+
 \bibitem[Herrera et~al., 2017]{Herrera2017}
 Herrera, D., Ellis, A., Fisher, B., Golden, C.~D., Johnson, K., Mulligan, M.,
   Pfaff, A., Treuer, T., and Ricketts, T.~H. (2017).
@@ -106,14 +152,31 @@ Herrera, D., Ellis, A., Fisher, B., Golden, C.~D., Johnson, K., Mulligan, M.,
   35 developing countries}.
 \newblock {\em Nature Communications}, 8(1).
 
+\bibitem[Hirano et~al., 2003]{Hirano2003}
+Hirano, K., Imbens, G.~W., and Ridder, G. (2003).
+\newblock {Efficient estimation of average treatment effects using the
+  estimated propensity score}.
+\newblock {\em Econometrica}.
+
 \bibitem[Ickowitz et~al., 2014]{Ickowitz2014}
 Ickowitz, A., Powell, B., Salim, M.~A., and Sunderland, T. C.~H. (2014).
 \newblock {Dietary quality and tree cover in Africa}.
 \newblock {\em Global Environmental Change}, 24(1):287--294.
 
+\bibitem[Kummu et~al., 2018]{Kummu2018}
+Kummu, M., Taka, M., and Guillaume, J. H.~A. (2018).
+\newblock {Data from: Gridded global datasets for Gross Domestic Product and
+  Human Development Index over 1990-2015}.
+
 \bibitem[Laurance et~al., 2014]{Laurance2014}
 Laurance, W.~F., Sayer, J., and Cassman, K.~G. (2014).
 \newblock {Agricultural expansion and its impacts on tropical nature}.
+
+\bibitem[L{\'{o}}pez-Hoffman et~al., 2010]{Lopez-Hoffman2010}
+L{\'{o}}pez-Hoffman, L., Varady, R.~G., Flessa, K.~W., and Balvanera, P.
+  (2010).
+\newblock {Ecosystem services across borders: A framework for transboundary
+  conservation policy}.
 
 \bibitem[Lott et~al., 2009]{Lott2009}
 Lott, J.~E., Ong, C.~K., and Black, C.~R. (2009).
@@ -158,6 +221,11 @@ Raudsepp-Hearne, C., Peterson, G.~D., and Bennett, E.~M. (2010).
   landscapes}.
 \newblock {\em Proceedings of the National Academy of Sciences},
   107(11):5242--5247.
+
+\bibitem[Robins et~al., 2000]{Robins2000}
+Robins, J.~M., Hern{\'{a}}n, M.~{\'{A}}., and Brumback, B. (2000).
+\newblock {Marginal structural models and causal inference in epidemiology}.
+\newblock {\em Epidemiology}.
 
 \bibitem[Robledo et~al., 2012]{Robledo2012}
 Robledo, C., Clot, N., Hammill, A., and Rich{\'{e}}, B. (2012).
@@ -206,6 +274,14 @@ Siriri, D., Wilson, J., Coe, R., Tenywa, M.~M., Bekunda, M.~A., Ong, C.~K., and
   agroforestry systems on bench terraces in SW Uganda}.
 \newblock {\em Agroforestry Systems}.
 
+\bibitem[Tatem, 2017]{Tatem2017}
+Tatem, A.~J. (2017).
+\newblock {WorldPop, open data for spatial demography}.
+
+\bibitem[{The World Bank}, 2019]{TheWorldBank2019}
+{The World Bank} (2019).
+\newblock {World Bank Open Data}.
+
 \bibitem[{United Nations Children's Fund (UNICEF)} et~al., 2019]{unicef2019}
 {United Nations Children's Fund (UNICEF)}, {World Health Organization}, and
   {International Bank for Reconstruction and Development/The World Bank}
@@ -214,11 +290,26 @@ Siriri, D., Wilson, J., Coe, R., Tenywa, M.~M., Bekunda, M.~A., Ong, C.~K., and
   Edition of the Joint Child Malnutrition Estimates}.
 \newblock Technical report, World Health Organization, Geneva.
 
+\bibitem[Wahba, 1982]{Wahba1982}
+Wahba, G. (1982).
+\newblock {Spline Interpolation and Smoothing on the Sphere}.
+\newblock {\em SIAM Journal on Scientific and Statistical Computing}.
+
 \bibitem[Wani et~al., 2009]{Wani2009}
 Wani, S.~P., Sreedevi, T.~K., Rockstr{\"{o}}m, J., and Ramakrishna, Y.~S.
   (2009).
 \newblock {Rainfed agriculture - past trends and future prospects}.
 \newblock In {\em Rainfed Agriculture: Unlocking the Potential}.
+
+\bibitem[Weiss et~al., 2018]{Weiss2018}
+Weiss, D.~J., Nelson, A., Gibson, H.~S., Temperley, W., Peedell, S., Lieber,
+  A., Hancher, M., Poyart, E., Belchior, S., Fullman, N., Mappin, B.,
+  Dalrymple, U., Rozier, J., Lucas, T.~C., Howes, R.~E., Tusting, L.~S., Kang,
+  S.~Y., Cameron, E., Bisanzio, D., Battle, K.~E., Bhatt, S., and Gething,
+  P.~W. (2018).
+\newblock {A global map of travel time to cities to assess inequalities in
+  accessibility in 2015}.
+\newblock {\em Nature}, 553(7688):333--336.
 
 \bibitem[Wily, 2008]{Wily2008}
 Wily, L.~A. (2008).
@@ -230,6 +321,22 @@ Wily, L.~A. (2011).
 \newblock {'The Law is to Blame': The Vulnerable Status of Common Property
   Rights in Sub-Saharan Africa}.
 \newblock {\em Development and Change}.
+
+\bibitem[Wood, 2006]{Wood2006}
+Wood, S.~N. (2006).
+\newblock {Low-rank scale-invariant tensor product smooths for generalized
+  additive mixed models}.
+\newblock {\em Biometrics}.
+
+\bibitem[Wood, 2017]{Wood2017}
+Wood, S.~N. (2017).
+\newblock {\em {Generalized additive models: An introduction with R, second
+  edition}}.
+
+\bibitem[{World Bank}, 2017]{WorldBank2017}
+{World Bank} (2017).
+\newblock {World Development Indicators Database: 2017}.
+\newblock {\em The World Bank Group}.
 
 \bibitem[Wunder et~al., 2014]{Wunder2014}
 Wunder, S., B{\"{o}}rner, J., Shively, G., and Wyman, M. (2014).
