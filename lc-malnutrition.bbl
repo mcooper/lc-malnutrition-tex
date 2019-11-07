@@ -57,12 +57,21 @@ Coulibaly-Lingani, P., Tigabu, M., Savadogo, P., Oden, P.~C., and Ouadba, J.~M.
 \newblock {Determinants of access to forest products in southern Burkina Faso}.
 \newblock {\em Forest Policy and Economics}, 11(7):516--524.
 
+\bibitem[Dai, 2013]{Dai2013}
+Dai, A. (2013).
+\newblock {Increasing drought under global warming in observations and models}.
+\newblock {\em Nature Climate Change}.
+
 \bibitem[Defourny et~al., 2017]{Defourny2017}
 Defourny, P., Brockmann, C., Bontemps, S., Lamarche, C., Santoro, M.,
   Boettcher, M., and Wevers, J. (2017).
 \newblock {CCI-LC PUGv2 Phase II. Land Cover Climate Change Initiative -
   Product User Guide v2}.
 \newblock Technical report.
+
+\bibitem[Duchon, 1977]{Duchon1977}
+Duchon, J. (1977).
+\newblock {Splines minimizing rotation-invariant semi-norms in Sobolev spaces}.
 
 \bibitem[Ellis, 1998]{Ellis1998}
 Ellis, F. (1998).
@@ -101,12 +110,92 @@ Fong, C., Ratkovic, M., Imai, K., Hazlett, C., Yang, X., and Peng, S. (2018b).
 \newblock {Package 'CBPS'}.
 \newblock {\em The Comprehensive R Archive Network}.
 
+\bibitem[Fullman et~al., 2017]{Fullman2017}
+Fullman, N., Barber, R.~M., Abajobir, A.~A., Abate, K.~H., Abbafati, C., Abbas,
+  K.~M., Abd-Allah, F., Abdulle, A.~M., Abera, S.~F., Aboyans, V., Abu-Raddad,
+  L.~J., Abu-Rmeileh, N.~M., Adedeji, I.~A., Adetokunboh, O., Afshin, A.,
+  Agrawal, A., Agrawal, S., Kiadaliri, A.~A., Ahmadieh, H., Ahmed, M.~B.,
+  Aichour, A.~N., Aichour, I., Aichour, M. T.~E., Aiyar, S., Akinyemi, R.~O.,
+  Akseer, N., Al-Aly, Z., Alam, K., Alam, N., Alasfoor, D., Alene, K.~A.,
+  Alizadeh-Navaei, R., Alkerwi, A., Alla, F., Allebeck, P., Allen, C.,
+  Al-Raddadi, R., Alsharif, U., Altirkawi, K.~A., Alvis-Guzman, N., Amare,
+  A.~T., Amini, E., Ammar, W., Antonio, C. A.~T., Ansari, H., Anwari, P.,
+  Arora, M., Artaman, A., Aryal, K.~K., Asayesh, H., Asgedom, S.~W., Assadi,
+  R., Atey, T.~M., Atre, S.~R., Avila-Burgos, L., {Arthur Avokpaho}, E. F.~G.,
+  Awasthi, A., Azzopardi, P., Bacha, U., Badawi, A., Balakrishnan, K., Bannick,
+  M.~S., Barac, A., Barker-Collo, S.~L., B{\"{a}}rnighausen, T., Barrero,
+  L.~H., Basu, S., Battle, K.~E., Baune, B.~T., Beardsley, J., Bedi, N., Beghi,
+  E., B{\'{e}}jot, Y., Bell, M.~L., Bennett, D.~A., Bennett, J.~R., Bensenor,
+  I.~M., Berhane, A., Berhe, D.~F., Bernab{\'{e}}, E., Betsu, B.~D., Beuran,
+  M., Beyene, A.~S., Bhala, N., Bhansali, A., Bhatt, S., Bhutta, Z.~A., Bikbov,
+  B., Bilal, A.~I., Birungi, C., Biryukov, S., Bizuayehu, H.~M., Blosser,
+  C.~D., Boneya, D.~J., Bose, D., Bou-Orm, I.~R., Brauer, M., Breitborde,
+  N.~J., Brugha, T.~S., Bulto, L. N.~B., Butt, Z.~A., Cahuana-Hurtado, L.,
+  Cameron, E., Campuzano, J.~C., Carabin, H., C{\'{a}}rdenas, R., Carrero,
+  J.~J., Carter, A., Casey, D.~C., Casta{\~{n}}eda-Orjuela, C.~A., Rivas,
+  J.~C., Castro, R.~E., Catal{\'{a}}-L{\'{o}}pez, F., Cercy, K., Chang, H.~Y.,
+  Chang, J.~C., Charlson, F.~J., Chew, A., Chisumpa, V.~H., Chitheer, A.~A.,
+  Christensen, H., Christopher, D.~J., Cirillo, M., Cooper, C., Criqui, M.~H.,
+  Cromwell, E.~A., Crump, J.~A., Dandona, L., Dandona, R., Dargan, P.~I., {Das
+  Neves}, J., Davitoiu, D.~V., {De Courten}, B., {De Steur}, H., Degenhardt,
+  L., Deiparine, S., Deribe, K., DeVeber, G.~A., Ding, E.~L., Djalalinia, S.,
+  Do, H.~P., Dokova, K., Doku, D.~T., Dorsey, E.~R., Driscoll, T.~R., Dubey,
+  M., Duncan, B.~B., Ebel, B.~E., Ebrahimi, H., El-Khatib, Z.~Z., Enayati, A.,
+  Endries, A.~Y., Ermakov, S.~P., Erskine, H.~E., Eshrati, B., Eskandarieh, S.,
+  Esteghamati, A., Estep, K., Faraon, E. J.~A., {Sofia E Sa Farinha}, C., Faro,
+  A., Farzadfar, F., Fazeli, M.~S., Feigin, V.~L., Feigl, A.~B.,
+  Fereshtehnejad, S.~M., Fernandes, J.~C., Ferrari, A.~J., Feyissa, T.~R.,
+  Filip, I., Fischer, F., Fitzmaurice, C., Flaxman, A.~D., Foigt, N., Foreman,
+  K.~J., Frank, T., Franklin, R.~C., Friedman, J., Frostad, J.~J., F{\"{u}}rst,
+  T., Furtado, J.~M., Gakidou, E., Garcia-Basteiro, A.~L., Gebrehiwot, T.~T.,
+  Geleijnse, J.~M., Geleto, A., Gemechu, B.~L., Gething, P.~W., Gibney, K.~B.,
+  Gill, P.~S., Gillum, R.~F., Giref, A.~Z., Gishu, M.~D., Giussani, G., Glenn,
+  S.~D., Godwin, W.~W., Goldberg, E.~M., Gona, P.~N., Goodridge, A., Gopalani,
+  S.~V., Goryakin, Y., Griswold, M., Gugnani, H.~C., Gupta, R., Gupta, T.,
+  Gupta, V., Hafezi-Nejad, N., Bidgoli, H.~H., Hailu, G.~B., Hamadeh, R.~R.,
+  Hammami, M., Hankey, G.~J., Harb, H.~L., Hareri, H.~A., Hassanvand, M.~S.,
+  Havmoeller, R., Hawley, C., Hay, S.~I., He, J., Hendrie, D., Henry, N.~J.,
+  Heredia-Pi, I.~B., Hoek, H.~W., Holmberg, M., Horita, N., Hosgood, H.~D.,
+  Hostiuc, S., Hoy, D.~G., Hsairi, M., Htet, A.~S., Huang, H., Huang, J.~J.,
+  Huynh, C., Iburg, K.~M., Ikeda, C., Inoue, M., Irvine, C. M.~S., Jacobsen,
+  K.~H., Jahanmehr, N., Jakovljevic, M.~B., Jauregui, A., Javanbakht, M.,
+  Jeemon, P., Jha, V., John, D., Johnson, C.~O., Johnson, S.~C., Jonas, J.~B.,
+  J{\"{u}}risson, M., Kabir, Z., Kadel, R., Kahsay, A., Kamal, R., Karch, A.,
+  Karema, C.~K., Kasaeian, A., Kassebaum, N.~J., Kastor, A., Katikireddi,
+  S.~V., Kawakami, N., Keiyoro, P.~N., Kelbore, S.~G., Kemmer, L., Kengne,
+  A.~P., Kesavachandran, C.~N., Khader, Y.~S., Khalil, I.~A., Khan, E.~A.,
+  Khang, Y.~H., Khosravi, A., Khubchandani, J., Kieling, C., Kim, D., Kim,
+  J.~Y., Kim, Y.~J., Kimokoti, R.~W., Kinfu, Y., Kisa, A., Kissimova-Skarbek,
+  K.~A., Kivimaki, M., Kokubo, Y., Kopec, J.~A., Kosen, S., Koul, P.~A.,
+  Koyanagi, A., Kravchenko, M., Krohn, K.~J., Defo, B.~K., Bicer, B.~K.,
+  Kulikoff, X.~R., Kumar, G.~A., Kutz, M.~J., Kyu, H.~H., Lal, D.~K., Lalloo,
+  R., Lansingh, V.~C., Larsson, A., Lazarus, J.~V., Lee, P.~H., Leigh, J.,
+  Leung, J., Leung, R., Levi, M., Li, Y., Liben, M.~L., Linn, S., Liu, P.~Y.,
+  Liu, S., Lodha, R., Looker, K.~J., Lopez, A.~D., Lorkowski, S., Lotufo,
+  P.~A., Lozano, R., Lucas, T.~C., Lunevicius, R., Mackay, M.~T., Maddison,
+  E.~R., {El Razek}, H. M.~A., {El Razek}, M. M.~A., Majdan, M., Majdzadeh, R.,
+  Majeed, A., Malekzadeh, R., Malhotra, R., Malta, D.~C., Mamun, A.~A.,
+  Manguerra, H., Mantovani, L.~G., Manyazewal, T., Mapoma, C.~C., Marks, G.~B.,
+  Martin, R.~V., Martinez-Raga, J., Martins-Melo, F.~R., Martopullo, I.,
+  Mathur, M.~R., Mazidi, M., McAlinden, C., McGaughey, M., McGrath, J.~J.,
+  McKee, (2017).
+\newblock {Measuring progress and projecting attainment on the basis of past
+  trends of the health-related Sustainable Development Goals in 188 countries:
+  An analysis from the Global Burden of Disease Study 2016}.
+\newblock {\em The Lancet}.
+
 \bibitem[Funk et~al., 2015]{Funk2015}
 Funk, C., Peterson, P., Landsfeld, M., Pedreros, D., Verdin, J., Shukla, S.,
   Husak, G., Rowland, J., Harrison, L., Hoell, A., and Michaelsen, J. (2015).
 \newblock {The climate hazards infrared precipitation with stations—a new
   environmental record for monitoring extremes}.
 \newblock {\em Scientific Data}, 2:150066.
+
+\bibitem[Gemmill-Herren and Ochieng', 2008]{Gemmill-Herren2008}
+Gemmill-Herren, B. and Ochieng', A.~O. (2008).
+\newblock {Role of native bees and natural habitats in eggplant (Solanum
+  melongena) pollination in Kenya}.
+\newblock {\em Agriculture, Ecosystems and Environment}.
 
 \bibitem[Girma et~al., 2000]{Girma2000}
 Girma, H., Rao, M.~R., and Sithanantham, S. (2000).
@@ -190,12 +279,44 @@ Mart{\'{i}}nez-Harms, M.~J. and Balvanera, P. (2012).
 \newblock {\em International Journal of Biodiversity Science, Ecosystem
   Services {\&} Management}, 8(1-2):17--25.
 
+\bibitem[Mei and Grummer-Strawn, 2007]{Mei2007}
+Mei, Z. and Grummer-Strawn, L.~M. (2007).
+\newblock {Standard deviation of anthropometric Z-scores as a data quality
+  assessment tool using the 2006 WHO growth standards: A cross country
+  analysis}.
+\newblock {\em Bulletin of the World Health Organization}.
+
+\bibitem[Meyfroidt et~al., 2013]{Meyfroidt2013}
+Meyfroidt, P., Lambin, E.~F., Erb, K.~H., and Hertel, T.~W. (2013).
+\newblock {Globalization of land use: Distant drivers of land change and
+  geographic displacement of land use}.
+\newblock {\em Current Opinion in Environmental Sustainability}, 5(5):438--444.
+
 \bibitem[Munyuli, 2012]{Munyuli2012}
 Munyuli, M. B.~T. (2012).
 \newblock {Micro, local, landscape and regional drivers of bee biodiversity and
   pollination services delivery to coffee (Coffea canephora) in Uganda}.
 \newblock {\em International Journal of Biodiversity Science, Ecosystem
   Services and Management}.
+
+\bibitem[Naidoo et~al., 2019]{naidoo2019evaluating}
+Naidoo, R., Gerkey, D., Hole, D., Pfaff, A., Ellis, A.~M., Golden, C.~D.,
+  Herrera, D., Johnson, K., Mulligan, M., Ricketts, T.~H., and Others (2019).
+\newblock {Evaluating the impacts of protected areas on human well-being across
+  the developing world}.
+\newblock {\em Science Advances}, 5(4):eaav3006.
+
+\bibitem[Osgood-Zimmerman et~al., 2018]{Osgood-Zimmerman2018}
+Osgood-Zimmerman, A., Millear, A.~I., Stubbs, R.~W., Shields, C., Pickering,
+  B.~V., Earl, L., Graetz, N., Kinyoki, D.~K., Ray, S.~E., Bhatt, S., Browne,
+  A.~J., Burstein, R., Cameron, E., Casey, D.~C., Deshpande, A., Fullman, N.,
+  Gething, P.~W., Gibson, H.~S., Henry, N.~J., Herrero, M., Krause, L.~K.,
+  Letourneau, I.~D., Levine, A.~J., Liu, P.~Y., Longbottom, J., Mayala, B.~K.,
+  Mosser, J.~F., Noor, A.~M., Pigott, D.~M., Piwoz, E.~G., Rao, P., Rawat, R.,
+  Reiner, R.~C., Smith, D.~L., Weiss, D.~J., Wiens, K.~E., Mokdad, A.~H., Lim,
+  S.~S., Murray, C.~J., Kassebaum, N.~J., and Hay, S.~I. (2018).
+\newblock {Mapping child growth failure in Africa between 2000 and 2015}.
+\newblock {\em Nature}, 555(7694):41--47.
 
 \bibitem[Perumal et~al., 2018]{Perumal2018}
 Perumal, N., Bassani, D.~G., and Roth, D.~E. (2018).
@@ -221,6 +342,12 @@ Raudsepp-Hearne, C., Peterson, G.~D., and Bennett, E.~M. (2010).
   landscapes}.
 \newblock {\em Proceedings of the National Academy of Sciences},
   107(11):5242--5247.
+
+\bibitem[Reed et~al., 2016]{Reed2016}
+Reed, J., van Vianen, J., Foli, S., Clendenning, J., Yang, K., MacDonald, M.,
+  Petrokofsky, G., Padoch, C., and Sunderland, T. (2016).
+\newblock {Trees for life: The ecosystem service contribution of trees to food
+  production and livelihoods in the tropics}.
 
 \bibitem[Robins et~al., 2000]{Robins2000}
 Robins, J.~M., Hern{\'{a}}n, M.~{\'{A}}., and Brumback, B. (2000).
@@ -278,9 +405,11 @@ Siriri, D., Wilson, J., Coe, R., Tenywa, M.~M., Bekunda, M.~A., Ong, C.~K., and
 Tatem, A.~J. (2017).
 \newblock {WorldPop, open data for spatial demography}.
 
-\bibitem[{The World Bank}, 2019]{TheWorldBank2019}
-{The World Bank} (2019).
-\newblock {World Bank Open Data}.
+\bibitem[Uchida and Nelson, 2008]{Uchida2008}
+Uchida, H. and Nelson, A. (2008).
+\newblock {Agglomeration Index : Towards a New Measure of Urban}.
+\newblock {\em World Development Report: Reshaping Economic Geography},
+  page~19.
 
 \bibitem[{United Nations Children's Fund (UNICEF)} et~al., 2019]{unicef2019}
 {United Nations Children's Fund (UNICEF)}, {World Health Organization}, and
@@ -321,12 +450,6 @@ Wily, L.~A. (2011).
 \newblock {'The Law is to Blame': The Vulnerable Status of Common Property
   Rights in Sub-Saharan Africa}.
 \newblock {\em Development and Change}.
-
-\bibitem[Wood, 2006]{Wood2006}
-Wood, S.~N. (2006).
-\newblock {Low-rank scale-invariant tensor product smooths for generalized
-  additive mixed models}.
-\newblock {\em Biometrics}.
 
 \bibitem[Wood, 2017]{Wood2017}
 Wood, S.~N. (2017).

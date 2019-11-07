@@ -1,10 +1,13 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: lc-malnutrition.aux
 The style file: apalike.bst
 Database file #1: C://Users/matt/library.bib
-Warning--I didn't find a database entry for "Gemmil-Herren2008"
-Warning--I didn't find a database entry for "Naidoo2019"
 Warning--there's a number but no volume in Adato2002
 Warning--empty institution in Defourny2017
+Warning--empty booktitle in Duchon1977
+Warning--empty publisher in Duchon1977
+Warning--you've exceeded 5000, the global-string-size, for entry Fullman2017
+while executing--line 1098 of file apalike.bst
+*Please notify the bibstyle designer*
 Warning--empty publisher in Wani2009
 Warning--empty publisher in Wood2017
-(There were 6 warnings)
+(There were 7 warnings)

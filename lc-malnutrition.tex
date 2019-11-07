@@ -4,6 +4,9 @@
 \usepackage[a4paper, margin=1in]{geometry}
 \usepackage{breakcites}
 \usepackage{subcaption}
+\usepackage{multicol}
+\usepackage{booktabs}
+\usepackage{longtable}
 
 \begin{document}
 
@@ -28,9 +31,9 @@ Currently, an estimated 58.8 million African children, representing nearly one t
 
 One factor that can play a major role in fostering food systems that are resilient to climate shocks is the presence of ecosystem services provided by forests, savannas, and other natural, uncultivated land use types.  Uncultivated areas provide a suite of regulating services that can buffer agricultural yields from the effects of shocks.  For example, natural vegetation can provide shade and cooler temperatures during heat waves, absorb water and protect against erosion during floods, as well as retain soil moisture during droughts.  Furthermore, natural areas can provide habitat for pollinators and species that regulate pest outbreaks.  Beyond regulating services, natural, uncultivated land provides provisioning services in the form of wild foods and other inedible Non-Timber Forest Products that can support local incomes and provide useful materials.  While these wild foods are often characterized as "famine foods" used as a fallback option in the context of livelihood shocks, in fact many livelihood systems rely on these foods at all times (shea and nere in West Africa, insects and mushrooms in Zambia).
 
-While a great deal of literature has focused on the benefit that ecosystem services can provide, much of this work has relied on studies that are site specific.  For example, detailed work conducted in case studies across Africa have found instances of ecosystem services improving child nutrition \cite{Golden2011}, regulating crop pests \cite{Girma2000}, improving yields through pollination \cite{Gemmil-Herren2008, Munyuli2012}, and improving soil nutrient quality \cite{Sileshi2012, Boffa2000, Siriri2009}.  Some work that is particularly relevant to climate resilience has found that natural land cover can improve soil water storage \cite{Siriri2013, Lott2009}, but nevertheless few studies have observed human outcomes before, during, and after a climate shock.  Rather, most studies that focus on ecosystems as a form of climate resilience use surveys that ask respondents if they would rely on ecosystem services in the event of a hypothetical shock \cite{Robledo2012}, with some studies indicating that many people do not think of ecosystem services as an asset that they would rely on during a shock \cite{Wunder2014}.
+While a great deal of literature has focused on the benefit that ecosystem services can provide, much of this work has relied on studies that are site specific.  For example, detailed work conducted in case studies across Africa have found instances of ecosystem services improving child nutrition \cite{Golden2011}, regulating crop pests \cite{Girma2000}, improving yields through pollination \cite{Gemmill-Herren2008, Munyuli2012}, and improving soil nutrient quality \cite{Sileshi2012, Boffa2000, Siriri2009}.  Some work that is particularly relevant to climate resilience has found that natural land cover can improve soil water storage \cite{Siriri2013, Lott2009}, but nevertheless few studies have observed human outcomes before, during, and after a climate shock.  Rather, most studies that focus on ecosystems as a form of climate resilience use surveys that ask respondents if they would rely on ecosystem services in the event of a hypothetical shock \cite{Robledo2012}, with some studies indicating that many people do not think of ecosystem services as an asset that they would rely on during a shock \cite{Wunder2014}.
 
-Building on all these case studies, a growing body of work has drawn on Demographic and Health Surveys from across Africa and the developing world to assess whether the benefits provided by various ecosystem services can be observed at scale.  This work has shown that forest cover is associated with improved dietary diversity \cite{Ickowitz2014, Rasolofoson2018}, that forested water sheds are associated with less diarrheal disease \cite{Herrera2017}, and that protected areas are associated with a number of positive benefits \cite{Naidoo2019}.  Our work builds on these studies by examining the benefit that natural, uncultivated landcover types provide to nutrition outcomes during periods of meterological extremes.  Furthermore, this study goes beyond testing for an association across the entire dataset, but also examines how the relationship between climate shocks, natural land cover, and rainfall varies over space to identify areas where natural land cover provides the greatest benefit to child nutrition outcomes.
+Building on all these case studies, a growing body of work has drawn on Demographic and Health Surveys from across Africa and the developing world to assess whether the benefits provided by various ecosystem services can be observed at scale.  This work has shown that forest cover is associated with improved dietary diversity \cite{Ickowitz2014, Rasolofoson2018}, that forested watersheds are associated with less diarrheal disease \cite{Herrera2017}, and that protected areas are associated with a number of positive benefits \cite{naidoo2019evaluating}.  Our work builds on these studies by examining the benefit that natural, uncultivated landcover types provide to nutrition outcomes during periods of meterological extremes.  Furthermore, this study goes beyond testing for an association across the entire dataset, but also examines how the relationship between climate shocks, natural land cover, and rainfall varies over space to identify areas where natural land cover provides the greatest benefit to child nutrition outcomes.
 
 While a large body of research attests to the fact that ecosystem services play a large role in food production and nutrition, especially for smallholder farmers, comparatively little work in the field of environmental conservation has been conducted to identify areas where conservation interventions could lead to improved food security and nutrition outcomes.  This is in spite of the fact that the practice of conservation relies heavily on mapping for priority setting - for example, mapping ecosystem services such as carbon sequestration and storage or water provision as well as mapping biodiversity hot spots.  Thus, mapping which natural areas contribute the most to climate-resilient nutrition systems could further catalyze conservation investment, as well as identify locations where conservation interventions could lead to synergies between SDGs related to environmental conservation (13 \& 15) and human well-being (1 \& 2).
 
@@ -100,45 +103,135 @@ Because both farm systems and ecosystem services vary according to local biophys
 \end{figure}
 
 \section{Methods}
-For this analysis we model how access to ecosystem services and markets interact affect the vulnerability of nutrition to drought in each agro-ecological zone.  We use Generalized Additive Models (GAMs) with a nonlinear smooth to model the interaction between ecosystem services and markets, controlling for the effects of individual and household level factors.  Furthermore, we use Covariate Balancing Generalized Propensity Scoring (CBGPS) to control for the effects of other geographic factors that may be correlated with land cover and land use, including population, primary school enrollment, gdp, government effectiveness, stability and absence of violence, imports per capita, Official Development Assistance (ODA).
+For this analysis we model how access to ecosystem services affects the vulnerability of nutrition to drought in each agro-ecological zone.  We use Generalized Additive Models (GAMs) with a nonlinear smooth to model how the impact of droughts on HAZ scores varies according the amount of nearby natural land cover.  Furthermore, we use Covariate Balancing Generalized Propensity Scoring (CBGPS) to control for the effects of other geographic factors that may be correlated with land cover and land use, including population, subnational gdp, access to larger cities, international trade.
 
 \subsection{Covariate Balancing Generalized Propensity Scoring}
-A number of factors are associated with the presence or absence of uncultivated land cover providing ecosystem services that also affect drought vulnerability.  Thus, to be able to infer that it is uncultivated land and the ecosystem services it provides that are contributing to drought vulnerability, it is important to control for these variables.  Propensity score weighting is a popular method to deal with this issue; however, nearly all methods involve a binary treatment variable, which must be dichotomized if it is initially measured in continuous terms \cite{Hirano2003, Robins2000}.  Because our treatment variable, uncultivated land, is continuous, and we have no theoretical priors on how it could be dichotomized, we opt instead to use Covariate Balancing Generalized Propensity Scoring (CBGPS), which can be used for continuous treatments and is more robust to misspecification \cite{Fong2018}.  Moreover, we use the nonparametric method to estimate the generalized propensity score, which finds weights that leave each cofounding variable uncorrelated with the treatment variable, while maximizing the empirical likelihood of observing the data.  The nonparemtric approach makes it possible to avoid assumptions about the functional form of the propensity score, but is more computationally costly \cite{Fong2018}.
+A number of factors are associated with the presence or absence of uncultivated land cover that also affect drought vulnerability.  Thus, to be able to infer that it is uncultivated land and the ecosystem services that is having a causal effect on reducing drought vulnerability, it is important to control for these variables.  Propensity score weighting is a popular method to deal with this issue; however, most traditional methods involve a binary treatment variable, which must be dichotomized if it is initially measured in continuous terms \cite{Hirano2003, Robins2000}.  Because our treatment variable, uncultivated land, is continuous, and we have no theoretical priors on how it could be dichotomized, we opt instead to use Covariate Balancing Generalized Propensity Scoring (CBGPS), which can be used for continuous treatments and is more robust to mis-specification \cite{Fong2018}.  Moreover, we use the non-parametric method to estimate the generalized propensity score, which finds weights that leave each co-founding variable uncorrelated with the treatment variable, while maximizing the empirical likelihood of observing the data.  The non-paremtric approach makes it possible to avoid assumptions about the functional form of the propensity score, but is more computationally costly \cite{Fong2018}.
 
-We balance for a number of demographic, political, and economic factors that can influence both drought vulnerability as well as land cover.  Demographic variables include population, from the WorldPop project \cite{Tatem2017} and the rate of primary school enrollment, from the World Bank \cite{TheWorldBank2019}; political factors include government effectiveness and political stability from the World Development Indicators \cite{WorldBank2017}; and economic factors include imports per captia and official development assistance \cite{TheWorldBank2019}, as well as subnational GDP per capita \cite{Kummu2018}.  Relying on the Sustainable Livelihoods Framework, these factors influence drought vulnerability by increasing access to capitals such as human capital and financial capital, while also influencing the amount of uncultivated land by affecting the demand for agricultural resources or alternative livelihood pathways that rely on other captials besides agricultural capital.
+We balance for a demographic and economic factors that can influence both drought vulnerability as well as land cover.  These are: include population, from the WorldPop project \cite{Tatem2017}, which can affect land cover by increasing pressure for agricultural production, as well as drought vulnerability by increasing access to off-farm labor but also increasing pressure for resources; subnational GDP per capita \cite{Kummu2018}, which can drive agricultural expansion, while also decreasing drought vulnerability; national imports per capita \cite{WorldBank2017}, which can drive agricultural expansion \cite{Meyfroidt2013} while also increasing financial resources during drought; and time to travel distance to major cities \cite{Weiss2018, Uchida2008}, which is an indicator of both market pressure on agriculture as well as access to financial capital that can buffer child nutrition from the effects of droughts.
 
-After using the nonparametric CBGPS methodology to generate weights for each of these variables with respect to the availability of uncultivated land, each of these variables are uncorrelated with uncultivated land in our analysis \cite{Fong2018}.  We run the algorithm separate for each AEZ in our analysis.  To conduct the balancing we use the CBPS package for R \cite{Fong2018a}, with the default value for the tuning parameter $\rho$ of $0.1/N$.
+After using the nonparametric CBGPS methodology to generate weights for each of these variables with respect to the availability of uncultivated land, we tested to see whether the correlation between these variables and uncultivated land cover decreased \cite{Fong2018}.  We run the algorithm separately for each AEZ in our analysis.  To conduct the balancing we use the CBPS package for R \cite{Fong2018a}, with the default value of $0.1/N$ for the tuning parameter $\rho$, which moderates the trade-off between completely reducing correlation and avoiding extreme outlier weights.
 
 \subsection{Generalized Additive Models}
-Having derived weights for the propensity of each observation to have uncultivated land in its vicinity, we then model nutrition outcomes as a function of drought, where the coefficient for drought is modeled as a function of both market distance \cite{Weiss2018} as well as uncultivated land cover, controlling for typical household and individual factors as well as the spatially-varying rate of malnutrition using a spherical spline.  This is a specific form of Generalized Additive Model \cite{Hastie1986} known as a varying coefficient model \cite{Wood2017}.  Specifically, or model takes the following form:
+Having derived weights for the propensity of each observation to have uncultivated land in its vicinity, we then model nutrition outcomes as a function of drought, where the coefficient for drought is modeled as a function of uncultivated land cover, controlling for typical household and individual factors as well as the spatially-varying rate of malnutrition using a spherical spline.  This is a specific form of Generalized Additive Model \cite{Hastie1986} known as a varying coefficient model \cite{Wood2017}.  Specifically, or model takes the following form:
 
 \begin{equation}
- y = \beta_0 + \beta X + s(latitude, longitude) + s(\mu, \nu) spei + \epsilon \label{eqn:GAM}
+ y = \beta_0 + \beta X + s(latitude, longitude) + s(\nu) spei + \epsilon \label{eqn:GAM}
 \end{equation}
 
-Where $y$ is a given child's HAZ score, $\beta_0$ is a fixed intercept, $X$ is a matrix of individual and household covariates, modified by a vector of fixed coefficients $\beta$, $s(latitude, longitude)$ is a spatially varying effect estimated by a spherical spline basis \cite{Wahba1982}, and $s(\mu, \nu)$ is a coefficient for the effect of the 24-month SPEI on nutrition outcomes, with the coefficient varying as a function of market distance $\mu$ and uncultivated land cover $\nu$, and with each function $s(\mu, \nu)$ estimated separately for each AEZ.  The basis we use for the varying coefficient $s(\mu, \nu)$ is estimated using tensor product smooths \cite{Wood2006}.
+Where $y$ is a given child's HAZ score, $\beta_0$ is a fixed intercept, $X$ is a matrix of individual and household covariates, modified by a vector of fixed coefficients $\beta$, $s(latitude, longitude)$ is a spatially varying effect estimated by a spherical spline basis \cite{Wahba1982}, and $s(\nu)$ is a coefficient for the effect of the 24-month SPEI on nutrition outcomes, with the coefficient varying as a function of uncultivated land cover $\nu$, and with each function $s(\nu)$ estimated separately for each AEZ.  The basis we use for the varying coefficient $s(\nu)$ is estimated using thin plate splines \cite{Duchon1977}, and the smoothing parameter for this smooth is estimated through Generalized Cross Validation (GCV) \cite{Wood2017}.
 
-\subsection{Modeling Effects of Uncultivated Land on Drought Vulnerability}
-To estimate the contribution of uncultivated land to nutrition outcomes, we map the marginal effect of an increase in 
+\subsection{Modeling Contribution of Uncultivated Land to Drought-Resilient Nutrition}
+To estimate the contribution of uncultivated land to nutrition outcomes, we model two scenarios for every AEZ where natural land cover was found to buffer children from the effects of drought: one estimating the impact of drought on child HAZ scores based on current levels of natural land cover, and one counterfactual scenario estimating the impact of drought on child HAZ scores if natural land cover were converted to agriculture.
+
+Our model estimates changes in mean HAZ scores under drought conditions, but not increases in rates of stunting, which is a more familiar metric for policymakers. Given that HAZ scores are normally distributed and the rate of stunting is the percentage of children under 5 years old with an HAZ score of less than -2, it is possible to covert changes in mean HAZ scores into increases in rates stunting given prevailing mean HAZ scores, which can in turn be derived from prevailing rates of stunting and the standard deviation of HAZ scores.  Thus, for estimates of current HAZ scores, we use data from a recent analysis of rates of stunting in Africa \cite{Osgood-Zimmerman2018}.  Because this analysis estimated rates of stunting for the years 2000-2015, we draw on trend analysis methods common in epidemiology to conduct a pixel-wise forecast to the year 2020 \cite{Fullman2017, Osgood-Zimmerman2018}.  For standard deviation, overall standard deviations in HAZ scores have been observed to vary independently of mean HAZ scores \cite{Mei2007} and to not change significantly over time.  Thus, we simply use the standard deviation for our dataset (1.62), which is matches previous literature on the standard deviation of HAZ scores in surveys in Africa \cite{Mei2007}.
+
+Using these values and the definition of a normal distribution, we estimate the current HAZ scores as well as the decrease in HAZ scores under drought for scenarios of natural land cover as well as a counterfactual scenario with no natural land cover.  Then we derive a pixelwise estimate of increases in rates of stunting under drought in the absence of natural land cover providing ecosystem services.
 
 \section{Results}
+\subsection{Covariate Balancing}
+After estimating weights using CBGPS, the correlation between uncultivated land cover and the various confounding variables that we attempted to control for was significantly reduced.  Tables \ref{tab:CBPSsum1} and \ref{tab:CBPSsum2} show the reduction in correlation between these variables based on the weighting.
 
+\begin{table}[h!]
+	\begin{center}
+		\begin{tabular}{r | c c c c c c c c }
+	&	\multicolumn{2}{c}{Import Value Per Capita}			&	\multicolumn{2}{c}{Population Density}			\\
+	\cmidrule(lr){2-3}\cmidrule(lr){4-5}
+AEZ	&	Unweighted	&	Weighted	&	Unweighted	&	Weighted	\\
+\hline									
+Arid	&	0.22	&	0.01	&	0.27	&	0	\\
+Forest	&	0.1	&	0.1	&	-0.47	&	0.04	\\
+Highlands	&	0.37	&	0.03	&	-0.64	&	-0.14	\\
+Northern Savanna	&	0.02	&	0.03	&	-0.45	&	0.02	\\
+Northern Sub-Forest	&	0.16	&	-0.03	&	-0.41	&	-0.01	\\
+Southern Savanna	&	0.45	&	0.01	&	-0.62	&	-0.03	\\
+Southern Sub-Forest	&	0.46	&	-0.09	&	-0.7	&	0.18	\\	
+		\end{tabular}
+	\caption{Summary of correlation between uncultivated land cover and confounding variables before and after weighting using CBGPS}
+	\label{tab:CBPSsum1}
+	\end{center}
+\end{table}
+
+\begin{table}[h!]
+	\begin{center}
+		\begin{tabular}{r | c c c c c c c c }
+			\cmidrule(lr){2-3}\cmidrule(lr){4-5}
+	&	\multicolumn{2}{c}{Subnational GDP Per Capita}			&	\multicolumn{2}{c}{Time to Travel to Major City}			\\
+	\cmidrule(lr){2-3}\cmidrule(lr){4-5}
+AEZ	&	Unweighted	&	Weighted	&	Unweighted	&	Weighted	\\
+\hline									
+Arid	&	0.16	&	-0.01	&	-0.15	&	0	\\
+Forest	&	0.19	&	0.08	&	0.31	&	-0.03	\\
+Highlands	&	0.17	&	-0.04	&	0.33	&	0.12	\\
+Northern Savanna	&	-0.16	&	0.02	&	0.24	&	0.01	\\
+Northern Sub-Forest	&	-0.03	&	-0.04	&	0.12	&	0.03	\\
+Southern Savanna	&	0.47	&	0.02	&	0.24	&	0.05	\\
+Southern Sub-Forest	&	0.22	&	0.06	&	0.17	&	0.05	\\
+\end{tabular}
+\caption{Summary of correlation between uncultivated land cover and confounding variables before and after weighting using CBGPS}
+\label{tab:CBPSsum2}
+\end{center}
+\end{table}
+
+
+\subsection{Role of Natural Land Cover in Moderating Drought by AEZ}
+
+Having estimated the model, our main parameters of interest are the smooths for how uncultivated land cover affects the impact of drought in each AEZ.  Thus, we graph those effects here in Figure \ref{fig:naturaleffect}, and include full model results in Appendix \ref{AppendixA}.
+
+\begin{figure}[h!]
+	\begin{center}
+	\includegraphics[width=0.8\linewidth]{AEZ_effects.png}
+	\end{center}
+	\caption{Varying effect of droughts on child nutrition outcomes by Agro-Ecological Zone (AEZ).  In arid, savanna, and highland zones, more natural land cover was associated with greater drought vulnerability, while in sub-forest zone, natural land cover was associated with less drought vulnerability.  Error bands indicate the 95\% confidence interval.}
+	\label{fig:naturaleffect}
+\end{figure}
+
+Figure \ref{fig:naturaleffect} shows how the coefficient for the 24-month SPEI varies as a function of the percent of nearby natural land cover.  The error band around the parameter indicates the 95\% confidence interval.  Thus, areas where the error band does not cross 0 (at the dotted line) indicates that, at that level of natural land cover, precipitation anomalies have a significant effect on child nutrition outcomes.
+
+In many AEZs, increasing rates of natural land cover are modeled to have a higher coefficient for the 24-month SPEI, signaling greater drought vulnerability.  However, in the sub-forest AEZ of both northern and southern Africa, decreasing natural land cover is associated with greater drought vulnerability.  At low levels of natural land cover in both northern and southern sub-forest africa, a moderate drought (SPEI = -2) decreases mean HAZ scores by 0.2 to 0.4, whereas at high levels of natural land cover, drought has no significant effect on nutrition outcomes.
+
+\subsection{Modeling Ecosystem Service Dependence Over Space}
+Our model indicates that in sub-forest parts of Africa, natural land cover buffers child nutrition from the effects of drought.  Thus, focusing on these AEZs, we model the impact of drought on child nutrition outcomes in scenarios of both current natural land cover levels as well as with no natural land cover, and estimate potential increases in stunting.
+
+\begin{figure}
+	\begin{center}
+		\includegraphics[width=0.8\linewidth]{AfricaEffects.png}
+		\caption{\textbf{A}) The effects of the 24-month SPEI on HAZ scores across Africa.  Positive values indicate drought vulnerability. \textbf{B}) Increase in the rate of stunting under drought if local uncultivated land were entirely converted to agriculture.  \textbf{C}) The gross number of additional stunted children per pixel in a no natural land cover scenario. \textbf{D}) The number of children dependent on local natural land cover for drought resilience by country, including those that wouldn't necessarily become stunted.}
+		\label{fig:AfricaEffects.png}
+	\end{center}
+\end{figure}
+
+Figure \ref{fig:AfricaEffects.png} shows several outputs from the steps from extrapolating the parameters from our model to estimating the total number of children dependent on local ecosystem services for drought resilience per country.  The most drought vulnerable areas are arid and savanna AEZs, especially in the Sahel, the Horn of Africa, as well as in arid parts of Southwest Africa.  However, the areas that would see an increase in stunting in the absence of local natural land cover were mostly in the sub-forest regions on Northern and Southern Africa, such as the Guinean forest-savanna mosaic of Northern and Western Africa as well as the Miombo Woodlands of Southern Africa. Examining the potential increase in stunted child under drought in each of these eco-regions shows that many of them would be located in the woodlands of southern DRC and northern Angola, as well as in parts of Mozambique and southern Tanzania.  Throughout Africa, an additional 1.5 million children would be stunted under drought without local ecosystem services.  Finally, examining the total number of vulnerable children, which would see any decrease in HAZ scores without necessarily becoming stunted without local ecosystem services shows that they are predominantly in the countries of Nigeria and DRC.
 
 \section{Discussion}
 
-private agriculture vs commons
+This paper assessed how the prevalence of uncultivated land cover moderated the impact of drought on child nutrition outcomes throughout several agro-ecological zones in Africa.  We took care to control for the potential confounding effects of several factors that could influence both the presence of uncultivated land as well as drought vulnerability, such as GDP per capita, distance to major cities, population density, and the per capita value of national imports.  We found that the manner in which natural land cover moderated the effect of drought on child nutrition outcomes varied by AEZ, and that there is an observable "safety net" effect in semi-forested landscapes throughout Africa, although natural land cover is associated with greater drought vulnerability in arid and savanna AEZs.  Finally, examining a counterfactual scenario of the impact of droughts without uncultivated land cover and the ecosystem services it provides shows that millions of children are dependent on ecosystem services to meet their nutrition needs in times of drought.
 
-We cant speak to acutal pathways, just observed effects
+An important aspect of this analysis was using weighting to ameliorate the effects of potential confounding variables.  Because we controlled for the effects of several demographic and economic variables, we can more confidently ascribe the observed drought mitigation to the land cover itself rather than to another factor that is correlated with land cover.  However, given that weighting each covariate to achieve a correlation of perfectly 0 would be either impossible or would require extreme weights, we did not reduce the correlation between our confounding variables and natural land cover all the way to 0 (See Tables \ref{tab:CBPSsum1} and \ref{tab:CBPSsum2}).  Nevertheless, we diminished the correlation to the effect that a causal interpretation of the observed mitigation effect of natural land cover is now more plausible.  Thus, combined with the fact that we excluded households with greater than 1\% urban land cover and greater than 5\% water land cover means that we are making the best apples-to-apples comparison we can.
 
-Each ecoregion is different
+While the model estimated the moderating effect of natural land cover drought as varying across AEZs, we found that natural land cover played a similar function in ecological similar zones.  In arid and savanna zones, greater natural land cover was associated with greater drought vulnerability.  On the other hand, in the ecological similar but geographically disjoint semi-forested regions, natural land cover had a safety net effect during drought.  The fact that ecologically similar eco-regions were modeled as having similar effects in terms of drought vulnerability, even though they were modeled with independently estimated smoothing splines, suggests that this effect is real and is ecologically based.
 
-BIG ASSUMPTION:
- - In areas where uncultivated land is associated with WORSE nutrition, it is due to poverty, but in areas where uncultivated land is associated with BETTER nutrition, it is due to ecosystem services
+One potential interpretation of these findings is that ecosystem services are less valuable to livelihoods in arid and savanna environments.  This could be due to lower overall biomass leading to a decreased availability of provisioning ecosystem services: the amount of edible biodiversity is lower in very arid ecosystems compared to more lush ecosystems.  Similarly, many regulating and supporting ecosystem services provided by natural land cover, such as wind breaking, shading and temperature regulation, and moisture retention are specifically a function of trees \cite{Reed2016}. Thus, areas lacking in trees and biodiversity may not be able to provide the safety net effect that more forested areas do.  For very humid and mesic areas, other the other hand, drought vulnerability does not seem to be a major issue: even precipitation is well below historic norms, it is still high enough to support food production.  This may be why there was almost no effect of SPEI in the forested AEZ.  Thus, the semi-forested parts of Africa present a middle ground, where rainfall levels are low enough that a precipitation anomaly can lead to increases in stunting, but rainfall is still high enough that natural land cover has both the biodiversity and biomass to provide a safety net.
+
+While the association between natural land cover and reduced drought vulnerability in certain AEZs is certainly suggestive that people are relying on ecosystem services as a safety net, this analysis cannot speak to the particular pathways through which people are benefiting from nature.  For example, the relative importance of provisioning ecosystem services such as wild foods versus regulating services such as shading to prevent moisture loss cannot be ascertained.  Nevertheless, previous work in Africa has found that greater natural land cover is associated with greater collection of wild foods and nonfood NTFPs, suggesting that natural land cover is part of the pathway \cite{Cooper2018a}.
 
 \section{Conclusion}
+These findings are have important implications for the study of food security, climate change vulnerability, and environmental conservation.  We showed that nature can be a critical part of reducing climate change vulnerability, but the specific role that nature plays is highly context-specific.  While mapping ecosystem services has traditionally focused on variables like carbon stocks and biodiversity hotspots, this analysis shows that the contributions of nature to food security can also be mapped to support greater food security.  Given the increasing threat of a more drought prone world under climate change \cite{Dai2013} combined with the severe precarity of Africa's agrarian poor, dampening the effects of drought and providing alternative food and income sources when agriculture fails may indeed be one of nature's most important contributions to people.
 
 
 \bibliographystyle{apalike}
 \bibliography{C://Users/matt/library}
+
+\setcounter{section}{0}
+\renewcommand{\thetable}{A\arabic{section}}
+\section*{Appendix} \label{AppendixA}
+\setcounter{table}{0}
+\setcounter{figure}{0}
+\renewcommand{\thetable}{A\arabic{table}}
+\renewcommand{\thefigure}{A\arabic{figure}}
+
+
+\input{Mod_Table.tex}
+
 
 \end{document}
