@@ -1,23 +1,23 @@
 \begin{thebibliography}{}
 
-\bibitem[Adato and Meinzen-Dick, 2002]{Adato2002}
-Adato, M. and Meinzen-Dick, R. (2002).
-\newblock {Assessing the Impact of Agricultural Research on Poverty Using the
-  Sustainable Livelihoods Framework}.
-\newblock {\em FCND Discussion Paper$\backslash$rEPTD Discussion Paper},
-  (128):57.
-
 \bibitem[Arku and Arku, 2010]{Arku2010}
 Arku, F.~S. and Arku, C. (2010).
 \newblock {I cannot drink water on an empty stomach: A gender perspective on
   living with drought}.
 \newblock {\em Gender and Development}.
 
-\bibitem[Bebbington, 1999]{Bebbington1999}
-Bebbington, A. (1999).
-\newblock {Capitals and Capabilities, A Framework for Analyzing and rural
-  livelihoods}.
-\newblock {\em World Development}, 27(12):2021--2044.
+\bibitem[Assogbadjo et~al., 2012]{Assogbadjo2012}
+Assogbadjo, A.~E., {Gl{\`{e}}l{\`{e}} Kaka{\"{i}}}, R., Vodouh{\^{e}}, F.~G.,
+  Djagoun, C. A. M.~S., Codjia, J. T.~C., and Sinsin, B. (2012).
+\newblock {Biodiversity and socioeconomic factors supporting farmers' choice of
+  wild edible trees in the agroforestry systems of Benin (West Africa)}.
+\newblock {\em Forest Policy and Economics}, 14(1):41--49.
+
+\bibitem[Barber et~al., 2014]{barber2014roads}
+Barber, C.~P., Cochrane, M.~A., Souza~Jr, C.~M., and Laurance, W.~F. (2014).
+\newblock Roads, deforestation, and the mitigating effect of protected areas in
+  the amazon.
+\newblock {\em Biological conservation}, 177:203--209.
 
 \bibitem[Beguer{\'{i}}a et~al., 2014]{Begueria2014}
 Beguer{\'{i}}a, S., Vicente-Serrano, S.~M., Reig, F., and Latorre, B. (2014).
@@ -32,11 +32,24 @@ Boffa, J.~M., Taonda, S.~J., Dickey, J.~B., and Knudson, D.~M. (2000).
   production in the Sudan zone of Burkina Faso}.
 \newblock {\em Agroforestry Systems}.
 
+\bibitem[Bray et~al., 2003]{bray2003mexico}
+Bray, D.~B., Merino-P{\'e}rez, L., Negreros-Castillo, P., Segura-Warnholtz, G.,
+  Torres-Rojo, J.~M., and Vester, H.~F. (2003).
+\newblock Mexico's community-managed forests as a global model for sustainable
+  landscapes.
+\newblock {\em Conservation biology}, 17(3):672--677.
+
 \bibitem[Brown et~al., 2014]{Brown2014}
 Brown, M.~E., Grace, K., Shively, G., Johnson, K.~B., and Carroll, M. (2014).
 \newblock {Using satellite remote sensing and household survey data to assess
   human health and nutrition response to environmental change}.
 \newblock {\em Population and environment}, 36(1):48--72.
+
+\bibitem[Carr{\~{a}}o et~al., 2016]{Carrao2016}
+Carr{\~{a}}o, H., Naumann, G., and Barbosa, P. (2016).
+\newblock {Mapping global patterns of drought risk: An empirical framework
+  based on sub-national estimates of hazard, exposure and vulnerability}.
+\newblock {\em Global Environmental Change}, 39:108--124.
 
 \bibitem[Cooper et~al., 2018]{Cooper2018a}
 Cooper, M., Zvoleff, A., Gonzalez-Roglich, M., Tusiime, F., Musumba, M., Noon,
@@ -45,7 +58,7 @@ Cooper, M., Zvoleff, A., Gonzalez-Roglich, M., Tusiime, F., Musumba, M., Noon,
   households across four African countries}.
 \newblock {\em Forest Policy and Economics}.
 
-\bibitem[Cooper et~al., 2019]{Cooper2019Mapping}
+\bibitem[Cooper et~al., 2019]{Cooper2019a}
 Cooper, M.~W., Brown, M.~E., Hochrainer-Stigler, S., Pflug, G., McCallum, I.,
   Fritz, S., Silva, J., and Zvoleff, A. (2019).
 \newblock {Mapping the effects of drought on child stunting}.
@@ -57,10 +70,20 @@ Coulibaly-Lingani, P., Tigabu, M., Savadogo, P., Oden, P.~C., and Ouadba, J.~M.
 \newblock {Determinants of access to forest products in southern Burkina Faso}.
 \newblock {\em Forest Policy and Economics}, 11(7):516--524.
 
+\bibitem[Culas, 2012]{culas2012redd}
+Culas, R.~J. (2012).
+\newblock Redd and forest transition: Tunneling through the environmental
+  kuznets curve.
+\newblock {\em Ecological Economics}, 79:44--51.
+
 \bibitem[Dai, 2013]{Dai2013}
 Dai, A. (2013).
 \newblock {Increasing drought under global warming in observations and models}.
 \newblock {\em Nature Climate Change}.
+
+\bibitem[Daily and Matson, 2008]{Daily2008}
+Daily, G.~C. and Matson, P.~A. (2008).
+\newblock {Ecosystem services: From theory to implementation}.
 
 \bibitem[Debela et~al., 2012]{Debela2012}
 Debela, B., Shively, G., Angelsen, A., and Wik, M. (2012).
@@ -74,14 +97,26 @@ Defourny, P., Brockmann, C., Bontemps, S., Lamarche, C., Santoro, M.,
   Product User Guide v2}.
 \newblock Technical report.
 
+\bibitem[Dimitrova and Bora, 2020]{dimitrova2020monsoon}
+Dimitrova, A. and Bora, J.~K. (2020).
+\newblock Monsoon weather and early childhood health in india.
+\newblock {\em PloS one}, 15(4):e0231479.
+
 \bibitem[Duchon, 1977]{Duchon1977}
 Duchon, J. (1977).
 \newblock {Splines minimizing rotation-invariant semi-norms in Sobolev spaces}.
 
-\bibitem[Ellis, 1998]{Ellis1998}
-Ellis, F. (1998).
-\newblock {Household strategies and rural livelihood diversification}.
-\newblock {\em Journal of Development Studies}, 35(1):1--38.
+\bibitem[Eldridge et~al., 2011]{Eldridge2011}
+Eldridge, D.~J., Bowker, M.~A., Maestre, F.~T., Roger, E., Reynolds, J.~F., and
+  Whitford, W.~G. (2011).
+\newblock {Impacts of shrub encroachment on ecosystem structure and
+  functioning: Towards a global synthesis}.
+
+\bibitem[Fairhead and Leach, 1996]{fairhead1996misreading}
+Fairhead, J. and Leach, M. (1996).
+\newblock {\em Misreading the African landscape: society and ecology in a
+  forest-savanna mosaic}, volume~90.
+\newblock Cambridge University Press.
 
 \bibitem[FAO et~al., 2018]{FAO2018}
 FAO, IFAD, UNICEFF, WFP, and WHO (2018).
@@ -114,6 +149,14 @@ Fong, C., Hazlettand, C., and Imai, K. (2018a).
 Fong, C., Ratkovic, M., Imai, K., Hazlett, C., Yang, X., and Peng, S. (2018b).
 \newblock {Package 'CBPS'}.
 \newblock {\em The Comprehensive R Archive Network}.
+
+\bibitem[Friant et~al., 2019]{friant2019life}
+Friant, S.~R., Ayambem, W.~A., Obaji, A.~A., Ifebueme, N.~M., Okoi, O.~M.,
+  Ogar, D.~A., Alawa, C.~B., Goldberg, T.~L., Jacka, J.~K., and Rothman, J.~M.
+  (2019).
+\newblock Life on the rainforest edge is associated with improved food security
+  in the agriculture-forest frontier of cross river state, nigeria.
+\newblock {\em Frontiers in Sustainable Food Systems}, 3:113.
 
 \bibitem[Fullman et~al., 2017]{Fullman2017}
 Fullman, N., Barber, R.~M., Abajobir, A.~A., Abate, K.~H., Abbafati, C., Abbas,
@@ -183,7 +226,64 @@ Fullman, N., Barber, R.~M., Abajobir, A.~A., Abate, K.~H., Abbafati, C., Abbas,
   Manguerra, H., Mantovani, L.~G., Manyazewal, T., Mapoma, C.~C., Marks, G.~B.,
   Martin, R.~V., Martinez-Raga, J., Martins-Melo, F.~R., Martopullo, I.,
   Mathur, M.~R., Mazidi, M., McAlinden, C., McGaughey, M., McGrath, J.~J.,
-  McKee, (2017).
+  McKee, M., Mehata, S., Mehndiratta, M.~M., Meier, T., Meles, K.~G., Memish,
+  Z.~A., Mendoza, W., Mengesha, M.~M., Mengistie, M.~A., Mensah, G.~A.,
+  Mensink, G.~B., Mereta, S.~T., Meretoja, A., Meretoja, T.~J., Mezgebe, H.~B.,
+  Micha, R., Millear, A., Miller, T.~R., Minnig, S., Mirarefin, M.,
+  Mirrakhimov, E.~M., Misganaw, A., Mishra, S.~R., Mitchell, P.~B., Mohammad,
+  K.~A., Mohammed, K.~E., Mohammed, S., Mohan, M.~B., Mokdad, A.~H.,
+  Mollenkopf, S.~K., Monasta, L., Hernandez, J. C.~M., Montico, M.,
+  Moradi-Lakeh, M., Moraga, P., Morawska, L., Morrison, S.~D., Moses, M.~W.,
+  Mountjoy-Venning, C., Mueller, U.~O., Muller, K., Murthy, G. V.~S., Musa,
+  K.~I., Naghavi, M., Naheed, A., Naidoo, K.~S., Nangia, V., Natarajan, G.,
+  Negoi, I., Negoi, R.~I., Nguyen, C.~T., Nguyen, G., Nguyen, M., Nguyen,
+  Q.~L., Nguyen, T.~H., Nichols, E., Ningrum, D. N.~A., Nomura, M., Nong,
+  V.~M., Norheim, O.~F., Noubiap, J. J.~N., Obermeyer, C.~M., Ogbo, F.~A., Oh,
+  I.~H., Oladimeji, O., Olagunju, A.~T., Olagunju, T.~O., Olivares, P.~R.,
+  Olsen, H.~E., Olusanya, B.~O., Olusanya, J.~O., Ong, K., Oren, E., Ortiz, A.,
+  Owolabi, M.~O., Mahesh, P.~A., Pana, A., Panda, B.~K., Panda-Jonas, S.,
+  Papachristou, C., Park, E.~K., Patton, G.~C., Paulson, K., Pereira, D.~M.,
+  Perico, D.~N., Pesudovs, K., Petzold, M., Phillips, M.~R., Pigott, D.~M.,
+  Pillay, J.~D., Pinho, C., Piradov, M.~A., Pishgar, F., Poulton, R.~G.,
+  Pourmalek, F., Qorbani, M., Radfar, A., Rafay, A., Rao, P.~C.,
+  Rahimi-Movaghar, V., Rahman, M., {Ur Rahman}, M.~H., Rahman, M.~A., Rai,
+  R.~K., Rajsic, S., Ram, U., Ranabhat, C.~L., Rawaf, S., Reidy, P., Reiner,
+  R.~C., Reinig, N., Reitsma, M.~B., Remuzzi, G., Renzaho, A.~M., Resnikoff,
+  S., Rezaei, S., Blancas, M. J.~R., Roba, K.~T., Rojas-Rueda, D., Rokni,
+  M.~B., Roshandel, G., Roth, G.~A., Roy, A., Rubagotti, E., Sadat, N.,
+  Safdarian, M., Safi, S., Safiri, S., Sagar, R., Salama, J., Salomon, J.~A.,
+  Samy, A.~M., Sanabria, J.~R., Santomauro, D., Santos, I.~S., Santos, J.~V.,
+  {Santric Milicevic}, M.~M., Sartorius, B., Satpathy, M., Sawhney, M., Saxena,
+  S., Saylan, M.~I., Shirude, S., Schmidt, M.~I., Schneider, I.~J., Schneider,
+  M.~T., Sch{\"{o}}ttker, B., Schutte, A.~E., Schwebel, D.~C., Schwendicke, F.,
+  Seedat, S., Sepanlou, S.~G., Servan-Mori, E.~E., Shackelford, K.~A., Shaheen,
+  A., Shahraz, S., Shaikh, M.~A., Shamsipour, M., Shamsizadeh, M., Islam, S.
+  M.~S., Sharma, J., Sharma, R., She, J., Shi, P., Shibuya, K., Shields, C.,
+  Shiferaw, M.~S., Shigematsu, M., Shin, M.~J., Shiri, R., Shirkoohi, R.,
+  Shishani, K., Shoman, H., Shrime, M.~G., Silberberg, D.~H., Silva, D. A.~S.,
+  Silva, J.~P., Silveira, D. G.~A., Singh, J.~A., Singh, V., Sinha, D.~N.,
+  Skiadaresi, E., Slepak, E.~L., Sligar, A., Smith, A., Smith, D.~L., Smith,
+  M., Sobaih, B.~H., Sobngwi, E., Soljak, M., Soneji, S., Sorensen, R.~J.,
+  Sposato, L.~A., Sreeramareddy, C.~T., Srinivasan, V., Stanaway, J.~D., Stein,
+  D.~J., Steiner, C., Steinke, S., Stokes, M.~A., Strub, B., Sufiyan, M.~B.,
+  Abdulkader, R.~S., Sunguya, B.~F., Sur, P.~J., Swaminathan, S., Sykes, B.~L.,
+  Sylte, D.~O., Szoeke, C.~E., Tabar{\'{e}}s-Seisdedos, R., Tadakamadla, S.~K.,
+  Tandon, N., Tao, T., Tarekegn, Y.~L., Tavakkoli, M., Taveira, N., Tegegne,
+  T.~K., Shifa, G.~T., Terkawi, A.~S., Tessema, G.~A., Thakur, J.~S.,
+  Thankappan, K.~R., Thrift, A.~G., Tiruye, T.~Y., Tobe-Gai, R., Topor-Madry,
+  R., Torre, A., Tortajada, M., Tran, B.~X., Troeger, C., Truelsen, T., Tsoi,
+  D., Tuem, K.~B., Tuzcu, E.~M., Tyrovolas, S., Ukwaja, K.~N., Uneke, C.~J.,
+  Updike, R., Uthman, O.~A., {Van Boven}, J.~F., {Van Donkelaar}, A.,
+  Varughese, S., Vasankari, T., Venketasubramanian, N., Vidavalur, R.,
+  Violante, F.~S., Vladimirov, S.~K., Vlassov, V.~V., Vollset, S.~E., Vos, T.,
+  Wadilo, F., Wakayo, T., Wallin, M.~T., Wang, Y.~P., Weichenthal, S.,
+  Weiderpass, E., Weintraub, R.~G., Weiss, D.~J., Werdecker, A., Westerman, R.,
+  Whiteford, H.~A., Wijeratne, T., Wiysonge, C.~S., Woldeyes, B.~G., Wolfe,
+  C.~D., Woodbrook, R., Xavier, D., Xu, G., Yadgir, S., Yakob, B., Yan, L.~L.,
+  Yano, Y., Yaseri, M., Ye, P., Yimam, H.~H., Yip, P., Yonemoto, N., Yoon,
+  S.~J., Yotebieng, M., Younis, M.~Z., Zaidi, Z., {El Sayed Zaki}, M.,
+  Zavala-Arciniega, L., Zhang, X., Zipkin, B., Zodpey, S., Lim, S.~S., and
+  Murray, C.~J. (2017).
 \newblock {Measuring progress and projecting attainment on the basis of past
   trends of the health-related Sustainable Development Goals in 188 countries:
   An analysis from the Global Burden of Disease Study 2016}.
@@ -229,6 +329,14 @@ Habicht, J.~P., Martorell, R., Yarbrough, C., Malina, R.~M., and Klein, R.~E.
   ethnic differences in growth potential?}
 \newblock {\em Lancet}, 1(7858):611.
 
+\bibitem[Hannah et~al., 2020]{hannah2020}
+Hannah, L., Roehrdanz, P.~R., Marquet, P.~A., Enquist, B.~J., Midgley, G.,
+  Foden, W., Lovett, J.~C., Corlett, R.~T., Corcoran, D., Butchart, S.~H.,
+  et~al. (2020).
+\newblock 30\% land conservation and climate action reduces tropical extinction
+  risk by more than 50\%.
+\newblock {\em Ecography}.
+
 \bibitem[Hargreaves and Samani, 1982]{Hargreaves1982}
 Hargreaves, G.~H. and Samani, Z.~A. (1982).
 \newblock {Estimating Potential Evapotranspiration}.
@@ -252,15 +360,66 @@ Hirano, K., Imbens, G.~W., and Ridder, G. (2003).
   estimated propensity score}.
 \newblock {\em Econometrica}.
 
+\bibitem[Holland et~al., 2012]{holland2012conservation}
+Holland, R., Darwall, W., and Smith, K. (2012).
+\newblock Conservation priorities for freshwater biodiversity: the key
+  biodiversity area approach refined and tested for continental africa.
+\newblock {\em Biological Conservation}, 148(1):167--179.
+
 \bibitem[Ickowitz et~al., 2014]{Ickowitz2014}
 Ickowitz, A., Powell, B., Salim, M.~A., and Sunderland, T. C.~H. (2014).
 \newblock {Dietary quality and tree cover in Africa}.
 \newblock {\em Global Environmental Change}, 24(1):287--294.
 
+\bibitem[Imai and Ratkovic, 2014]{imai2014covariate}
+Imai, K. and Ratkovic, M. (2014).
+\newblock Covariate balancing propensity score.
+\newblock {\em Journal of the Royal Statistical Society: Series B: Statistical
+  Methodology}, pages 243--263.
+
+\bibitem[Immerzeel et~al., 2020]{immerzeel2020importance}
+Immerzeel, W.~W., Lutz, A., Andrade, M., Bahl, A., Biemans, H., Bolch, T.,
+  Hyde, S., Brumby, S., Davies, B., Elmore, A., et~al. (2020).
+\newblock Importance and vulnerability of the world’s water towers.
+\newblock {\em Nature}, 577(7790):364--369.
+
+\bibitem[Janssens et~al., 2020]{janssens2020global}
+Janssens, C., Havl{\'\i}k, P., Krisztin, T., Baker, J., Frank, S., Hasegawa,
+  T., Lecl{\`e}re, D., Ohrel, S., Ragnauth, S., Schmid, E., et~al. (2020).
+\newblock Global hunger and climate change adaptation through international
+  trade.
+\newblock {\em Nature Climate Change}, 10(9):829--835.
+
+\bibitem[Karp et~al., 2013]{Karp2013}
+Karp, D.~S., Mendenhall, C.~D., Sand{\'{i}}, R.~F., Chaumont, N., Ehrlich,
+  P.~R., Hadly, E.~A., and Daily, G.~C. (2013).
+\newblock {Forest bolsters bird abundance, pest control and coffee yield}.
+\newblock {\em Ecology Letters}, 16(11):1339--1347.
+
+\bibitem[Kim et~al., 2016]{Kim2016}
+Kim, D.~G., Thomas, A.~D., Pelster, D., Rosenstock, T.~S., and Sanz-Cobena, A.
+  (2016).
+\newblock {Greenhouse gas emissions from natural ecosystems and agricultural
+  lands in sub-Saharan Africa: Synthesis of available data and suggestions for
+  further research}.
+\newblock {\em Biogeosciences}.
+
 \bibitem[Kummu et~al., 2018]{Kummu2018}
 Kummu, M., Taka, M., and Guillaume, J. H.~A. (2018).
 \newblock {Data from: Gridded global datasets for Gross Domestic Product and
   Human Development Index over 1990-2015}.
+
+\bibitem[Laris, 2008]{Laris2008}
+Laris, P. (2008).
+\newblock {An anthropogenic escape route from the "Gulliver Syndrome" in the
+  West African Savanna}.
+\newblock {\em Human Ecology}, 36(6):789--805.
+
+\bibitem[Larsen et~al., 2019]{larsen2019misreporting}
+Larsen, A.~F., Headey, D., and Masters, W.~A. (2019).
+\newblock Misreporting month of birth: Diagnosis and implications for research
+  on nutrition and early childhood in developing countries.
+\newblock {\em Demography}, 56(2):707--728.
 
 \bibitem[Laurance et~al., 2014]{Laurance2014}
 Laurance, W.~F., Sayer, J., and Cassman, K.~G. (2014).
@@ -278,11 +437,24 @@ Lott, J.~E., Ong, C.~K., and Black, C.~R. (2009).
   robusta-based agroforestry system in semi-arid Kenya}.
 \newblock {\em Agricultural and Forest Meteorology}, 149(6-7):1140--1151.
 
+\bibitem[Lynam, 2002]{Lynam2002}
+Lynam, J. (2002).
+\newblock {A History of Farming Systems Research}.
+\newblock {\em Agricultural Systems}.
+
 \bibitem[Mart{\'{i}}nez-Harms and Balvanera, 2012]{Martinez-Harms2012}
 Mart{\'{i}}nez-Harms, M.~J. and Balvanera, P. (2012).
 \newblock {Methods for mapping ecosystem service supply: a review}.
 \newblock {\em International Journal of Biodiversity Science, Ecosystem
   Services {\&} Management}, 8(1-2):17--25.
+
+\bibitem[McShane et~al., 2011]{mcshane2011hard}
+McShane, T.~O., Hirsch, P.~D., Trung, T.~C., Songorwa, A.~N., Kinzig, A.,
+  Monteferri, B., Mutekanga, D., Van~Thang, H., Dammert, J.~L., Pulgar-Vidal,
+  M., et~al. (2011).
+\newblock Hard choices: making trade-offs between biodiversity conservation and
+  human well-being.
+\newblock {\em Biological Conservation}, 144(3):966--972.
 
 \bibitem[Mei and Grummer-Strawn, 2007]{Mei2007}
 Mei, Z. and Grummer-Strawn, L.~M. (2007).
@@ -296,6 +468,21 @@ Meyfroidt, P., Lambin, E.~F., Erb, K.~H., and Hertel, T.~W. (2013).
 \newblock {Globalization of land use: Distant drivers of land change and
   geographic displacement of land use}.
 \newblock {\em Current Opinion in Environmental Sustainability}, 5(5):438--444.
+
+\bibitem[Moore et~al., 2016]{moore2016improving}
+Moore, C.~H., Radford, B.~T., Possingham, H.~P., Heyward, A.~J., Stewart,
+  R.~R., Watts, M.~E., Prescott, J., Newman, S.~J., Harvey, E.~S., Fisher, R.,
+  et~al. (2016).
+\newblock Improving spatial prioritisation for remote marine regions:
+  optimising biodiversity conservation and sustainable development trade-offs.
+\newblock {\em Scientific reports}, 6:32029.
+
+\bibitem[Morgan and Moseley, 2020]{morgan2020secret}
+Morgan, J.~D. and Moseley, W.~G. (2020).
+\newblock The secret is in the sauce: foraged food and dietary diversity among
+  female farmers in southwestern burkina faso.
+\newblock {\em Canadian Journal of Development Studies/Revue canadienne
+  d'{\'e}tudes du d{\'e}veloppement}, 41(2):296--313.
 
 \bibitem[Muller and Almedom, 2008]{Muller2008}
 Muller, J. and Almedom, A.~M. (2008).
@@ -329,6 +516,26 @@ Osgood-Zimmerman, A., Millear, A.~I., Stubbs, R.~W., Shields, C., Pickering,
 \newblock {Mapping child growth failure in Africa between 2000 and 2015}.
 \newblock {\em Nature}, 555(7694):41--47.
 
+\bibitem[Ouedraogo et~al., 2010]{ouedraogo2010land}
+Ouedraogo, I., Tigabu, M., Savadogo, P., Compaor{\'e}, H., Od{\'e}n, P., and
+  Ouadba, J. (2010).
+\newblock Land cover change and its relation with population dynamics in
+  burkina faso, west africa.
+\newblock {\em Land Degradation \& Development}, 21(5):453--462.
+
+\bibitem[Pascual et~al., 2017]{Pascual2017}
+Pascual, U., Balvanera, P., D{\'{i}}az, S., Pataki, G., Roth, E., Stenseke, M.,
+  Watson, R.~T., {Başak Dessane}, E., Islar, M., Kelemen, E., Maris, V.,
+  Quaas, M., Subramanian, S.~M., Wittmer, H., Adlan, A., Ahn, S.~E., Al-Hafedh,
+  Y.~S., Amankwah, E., Asah, S.~T., Berry, P., Bilgin, A., Breslow, S.~J.,
+  Bullock, C., C{\'{a}}ceres, D., Daly-Hassen, H., Figueroa, E., Golden, C.~D.,
+  G{\'{o}}mez-Baggethun, E., Gonz{\'{a}}lez-Jim{\'{e}}nez, D., Houdet, J.,
+  Keune, H., Kumar, R., Ma, K., May, P.~H., Mead, A., O'Farrell, P., Pandit,
+  R., Pengue, W., Pichis-Madruga, R., Popa, F., Preston, S., Pacheco-Balanza,
+  D., Saarikoski, H., Strassburg, B.~B., van~den Belt, M., Verma, M., Wickson,
+  F., and Yagi, N. (2017).
+\newblock {Valuing nature's contributions to people: the IPBES approach}.
+
 \bibitem[Perumal et~al., 2018]{Perumal2018}
 Perumal, N., Bassani, D.~G., and Roth, D.~E. (2018).
 \newblock {Use and Misuse of Stunting as a Measure of Child Health}.
@@ -339,6 +546,13 @@ Pouliot, M. and Treue, T. (2013).
 \newblock {Rural People's Reliance on Forests and the Non-Forest Environment in
   West Africa: Evidence from Ghana and Burkina Faso}.
 \newblock {\em World Development}, 43(June 2011):180--193.
+
+\bibitem[Powell et~al., 2015]{powell2015improving}
+Powell, B., Thilsted, S.~H., Ickowitz, A., Termote, C., Sunderland, T., and
+  Herforth, A. (2015).
+\newblock Improving diets with wild and cultivated biodiversity from across the
+  landscape.
+\newblock {\em Food Security}, 7(3):535--554.
 
 \bibitem[Rasolofoson et~al., 2018]{Rasolofoson2018}
 Rasolofoson, R.~A., Hanauer, M.~M., Pappinen, A., Fisher, B., and Ricketts,
@@ -382,16 +596,21 @@ Runge, C., Senauer, B., Pardey, P., and Rosegrant, M. (2004).
 \newblock {Ending hunger in Africa prospects for the small farmer}.
 \newblock {\em Issue briefs}.
 
-\bibitem[Scoones, 1998]{Scoones1998a}
-Scoones, I. (1998).
-\newblock {Sustainable Rural Livelihoods: A framework for analysis}.
-\newblock {\em Institute of Development Studies}.
+\bibitem[Rutstein and Staveteig, 2014]{Rutstein2014c}
+Rutstein, S.~O. and Staveteig, S. (2014).
+\newblock {Making the Demographic and Health Surveys Wealth Index comparable }.
 
 \bibitem[Sheffield et~al., 2006]{Sheffield2006}
 Sheffield, J., Goteti, G., and Wood, E.~F. (2006).
 \newblock {Development of a 50-year high-resolution global dataset of
   meteorological forcings for land surface modeling}.
 \newblock {\em Journal of Climate}, 19(13):3088--3111.
+
+\bibitem[Shively, 2017]{Shively2017}
+Shively, G. (2017).
+\newblock {Infrastructure mitigates the sensitivity of child growth to local
+  agriculture and rainfall in Nepal and Uganda}.
+\newblock {\em Proceedings of the National Academy of Sciences}, 114(5).
 
 \bibitem[Sileshi et~al., 2012]{Sileshi2012}
 Sileshi, G.~W., Debusho, L.~K., and Akinnifesi, F.~K. (2012).
@@ -429,6 +648,11 @@ Uchida, H. and Nelson, A. (2008).
 \newblock {Levels and trends in child malnutrition: key findings of the 2019
   Edition of the Joint Child Malnutrition Estimates}.
 \newblock Technical report, World Health Organization, Geneva.
+
+\bibitem[Venter et~al., 2018]{Venter2018}
+Venter, Z.~S., Cramer, M.~D., and Hawkins, H.~J. (2018).
+\newblock {Drivers of woody plant encroachment over Africa}.
+\newblock {\em Nature Communications}.
 
 \bibitem[Wahba, 1982]{Wahba1982}
 Wahba, G. (1982).

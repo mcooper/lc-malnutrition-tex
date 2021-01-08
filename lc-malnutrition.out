@@ -2,19 +2,22 @@
 \BOOKMARK [1][-]{section.2}{Theoretical Framework}{}% 2
 \BOOKMARK [2][-]{subsection.2.1}{Land Cover and Ecosystem Services}{section.2}% 3
 \BOOKMARK [2][-]{subsection.2.2}{Uncultivated Land and Commons}{section.2}% 4
-\BOOKMARK [2][-]{subsection.2.3}{Sustainable Livelihoods Approach}{section.2}% 5
-\BOOKMARK [1][-]{section.3}{Data Sources}{}% 6
-\BOOKMARK [2][-]{subsection.3.1}{Nutrition Data}{section.3}% 7
-\BOOKMARK [2][-]{subsection.3.2}{Drought Data}{section.3}% 8
-\BOOKMARK [2][-]{subsection.3.3}{Land Cover}{section.3}% 9
-\BOOKMARK [2][-]{subsection.3.4}{Agro-Ecological Zones}{section.3}% 10
-\BOOKMARK [1][-]{section.4}{Methods}{}% 11
-\BOOKMARK [2][-]{subsection.4.1}{Covariate Balancing Generalized Propensity Scoring}{section.4}% 12
-\BOOKMARK [2][-]{subsection.4.2}{Modeling Framework}{section.4}% 13
-\BOOKMARK [2][-]{subsection.4.3}{Modeling Contribution of Uncultivated Land to Drought-Resilient Nutrition}{section.4}% 14
-\BOOKMARK [1][-]{section.5}{Results}{}% 15
-\BOOKMARK [2][-]{subsection.5.1}{Covariate Balancing}{section.5}% 16
-\BOOKMARK [2][-]{subsection.5.2}{Role of Natural Land Cover in Moderating Drought by AEZ}{section.5}% 17
-\BOOKMARK [2][-]{subsection.5.3}{Modeling Ecosystem Service Dependence Over Space}{section.5}% 18
+\BOOKMARK [1][-]{section.3}{Data Sources}{}% 5
+\BOOKMARK [2][-]{subsection.3.1}{Nutrition Data}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.2}{Drought Data}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.3}{Land Cover}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.4}{Agro-Ecological Zones}{section.3}% 9
+\BOOKMARK [1][-]{section.4}{Methods}{}% 10
+\BOOKMARK [2][-]{subsection.4.1}{Covariate Balancing Generalized Propensity Scoring}{section.4}% 11
+\BOOKMARK [2][-]{subsection.4.2}{Modeling Framework}{section.4}% 12
+\BOOKMARK [2][-]{subsection.4.3}{Estimating the Contribution of Uncultivated Land to Drought-Resilient Nutrition and Comparison with Other Conservation Priorities}{section.4}% 13
+\BOOKMARK [1][-]{section.5}{Results}{}% 14
+\BOOKMARK [2][-]{subsection.5.1}{Covariate Balancing}{section.5}% 15
+\BOOKMARK [2][-]{subsection.5.2}{Role of Natural Land Cover in Moderating Drought by AEZ}{section.5}% 16
+\BOOKMARK [2][-]{subsection.5.3}{Modeling Ecosystem Service Dependence Over Space}{section.5}% 17
+\BOOKMARK [2][-]{subsection.5.4}{Comparison With Biodiversity Conservation Priorities}{section.5}% 18
 \BOOKMARK [1][-]{section.6}{Discussion}{}% 19
 \BOOKMARK [1][-]{section.7}{Conclusion}{}% 20
+\BOOKMARK [1][-]{section.1}{Full Model Results}{}% 21
+\BOOKMARK [1][-]{section.2}{Model Results With Weights Censored at the 90th Percentile}{}% 22
+\BOOKMARK [1][-]{section.3}{Model Results With Weights Censored at the 80th Percentile}{}% 23
