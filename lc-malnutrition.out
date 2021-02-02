@@ -10,7 +10,7 @@
 \BOOKMARK [1][-]{section.4}{Methods}{}% 10
 \BOOKMARK [2][-]{subsection.4.1}{Covariate Balancing Generalized Propensity Scoring}{section.4}% 11
 \BOOKMARK [2][-]{subsection.4.2}{Modeling Framework}{section.4}% 12
-\BOOKMARK [2][-]{subsection.4.3}{Estimating the Contribution of Uncultivated Land to Drought-Resilient Nutrition and Comparison with Other Conservation Priorities}{section.4}% 13
+\BOOKMARK [2][-]{subsection.4.3}{Mapping Where to Target Conservation Interventions}{section.4}% 13
 \BOOKMARK [1][-]{section.5}{Results}{}% 14
 \BOOKMARK [2][-]{subsection.5.1}{Covariate Balancing}{section.5}% 15
 \BOOKMARK [2][-]{subsection.5.2}{Role of Natural Land Cover in Moderating Drought by AEZ}{section.5}% 16
@@ -21,3 +21,4 @@
 \BOOKMARK [1][-]{section.1}{Full Model Results}{}% 21
 \BOOKMARK [1][-]{section.2}{Model Results With Weights Censored at the 90th Percentile}{}% 22
 \BOOKMARK [1][-]{section.3}{Model Results With Weights Censored at the 80th Percentile}{}% 23
+\BOOKMARK [1][-]{section.4}{Intersection of biodiversity and food security conservation priorities, with protected areas.}{}% 24

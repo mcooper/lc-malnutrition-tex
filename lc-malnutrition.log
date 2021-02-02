@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.9.6)  7 JAN 2021 22:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.9.6)  2 FEB 2021 16:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -324,18 +324,36 @@ Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \c@LT@chunks=\count277
 \LT@p@ftn=\toks16
 )
+(/usr/share/texlive/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count278
+\output=\toks17
+\linenoprevgraf=\count279
+\linenumbersep=\dimen179
+\linenumberwidth=\dimen180
+\c@linenumber=\count280
+\c@pagewiselinenumber=\count281
+\c@LN@truepage=\count282
+\c@internallinenumber=\count283
+\c@internallinenumbers=\count284
+\quotelinenumbersep=\dimen181
+\bframerule=\dimen182
+\bframesep=\dimen183
+\bframebox=\box95
+LaTeX Info: Redefining \\ on input line 3056.
+)
 (/usr/share/texlive/texmf-dist/tex/latex/preprint/authblk.sty
 Package: authblk 2001/02/27 1.3 (PWD)
 \affilsep=\skip56
 \@affilsep=\skip57
-\c@Maxaffil=\count278
-\c@authors=\count279
-\c@affil=\count280
+\c@Maxaffil=\count285
+\c@authors=\count286
+\c@affil=\count287
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count281
-\l__pdf_internal_box=\box95
+\l__kernel_color_stack_int=\count288
+\l__pdf_internal_box=\box96
 )
 (./lc-malnutrition.aux
 
@@ -347,35 +365,35 @@ LaTeX Warning: Label `table:coefficients' multiply defined.
 )
 \openout1 = `lc-malnutrition.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count282
-\scratchdimen=\dimen179
-\scratchbox=\box96
-\nofMPsegments=\count283
-\nofMParguments=\count284
-\everyMPshowfont=\toks17
-\MPscratchCnt=\count285
-\MPscratchDim=\dimen180
-\MPnumerator=\count286
-\makeMPintoPDFobject=\count287
-\everyMPtoPDFconversion=\toks18
+\scratchcounter=\count289
+\scratchdimen=\dimen184
+\scratchbox=\box97
+\nofMPsegments=\count290
+\nofMParguments=\count291
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count292
+\MPscratchDim=\dimen185
+\MPnumerator=\count293
+\makeMPintoPDFobject=\count294
+\everyMPtoPDFconversion=\toks19
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -385,8 +403,8 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box97
-Package hyperref Info: Link coloring OFF on input line 12.
+\AtBeginShipoutBox=\box98
+Package hyperref Info: Link coloring OFF on input line 15.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -397,11 +415,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count288
+\c@section@level=\count295
 )
-LaTeX Info: Redefining \ref on input line 12.
-LaTeX Info: Redefining \pageref on input line 12.
-LaTeX Info: Redefining \nameref on input line 12.
+LaTeX Info: Redefining \ref on input line 15.
+LaTeX Info: Redefining \pageref on input line 15.
+LaTeX Info: Redefining \nameref on input line 15.
 
 (./lc-malnutrition.out) (./lc-malnutrition.out)
 \@outlinefile=\write3
@@ -449,120 +467,121 @@ Package: ltcaption 2018/08/26 v1.4a longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 22.
+(Font)              <12> on input line 32.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 22.
+(Font)              <8> on input line 32.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 22.
+(Font)              <6> on input line 32.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
-LaTeX Font Info:    Trying to load font information for OML+cmr on input line 6
+LaTeX Font Info:    Trying to load font information for OML+cmr on input line 7
 7.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 67.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 77.
  [4]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 81.
+(Font)              <7> on input line 91.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 81.
-<AEZ_Sites.png, id=264, 505.89pt x 361.35pt>
+(Font)              <5> on input line 91.
+<AEZ_Sites.png, id=290, 505.89pt x 361.35pt>
 File: AEZ_Sites.png Graphic file (type png)
 <use AEZ_Sites.png>
-Package pdftex.def Info: AEZ_Sites.png  used on input line 99.
+Package pdftex.def Info: AEZ_Sites.png  used on input line 109.
 (pdftex.def)             Requested size: 362.37569pt x 258.84299pt.
- [5 <./AEZ_Sites.png (PNG copy)>] [6]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<AEZ_effects.png, id=342, 505.89pt x 252.945pt>
+ [5 <./AEZ_Sites.png (PNG copy)>] [6] [7]
+<AEZ_effects.png, id=402, 505.89pt x 252.945pt>
 File: AEZ_effects.png Graphic file (type png)
 <use AEZ_effects.png>
-Package pdftex.def Info: AEZ_effects.png  used on input line 163.
+Package pdftex.def Info: AEZ_effects.png  used on input line 185.
 (pdftex.def)             Requested size: 452.9679pt x 226.48665pt.
 
+
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[7]
-<AfricaEffect.png, id=360, 722.7pt x 289.08pt>
+[8]
+<AfricaEffect.png, id=413, 722.7pt x 289.08pt>
 File: AfricaEffect.png Graphic file (type png)
 <use AfricaEffect.png>
-Package pdftex.def Info: AfricaEffect.png  used on input line 178.
+Package pdftex.def Info: AfricaEffect.png  used on input line 202.
 (pdftex.def)             Requested size: 452.9679pt x 181.18622pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[8 <./AEZ_effects.png (PNG copy)>]
-<Bivariate_Map.png, id=367, 578.16pt x 578.16pt>
+ [9 <./AEZ_effects.png (PNG copy)> <./AfricaEffect.png (PNG copy)>]
+<Bivariate_Map.png, id=421, 578.16pt x 578.16pt>
 File: Bivariate_Map.png Graphic file (type png)
 <use Bivariate_Map.png>
-Package pdftex.def Info: Bivariate_Map.png  used on input line 190.
+Package pdftex.def Info: Bivariate_Map.png  used on input line 214.
 (pdftex.def)             Requested size: 362.37569pt x 362.37247pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[9 <./AfricaEffect.png (PNG copy)>] [10 <./Bivariate_Map.png (PNG copy)>]
-[11] (./lc-malnutrition.bbl [12] [13] [14] [15] [16] [17] [18])pdfTeX warning (
-ext4): destination with the same identifier (name{section.1}) has been already 
-used, duplicate ignored
+ [10 <./Bivariate_Map.png (PNG copy)>] [11] [12] (./lc-malnutrition.bbl [13] [1
+4]
+[15] [16] [17] [18] [19] [20])pdfTeX warning (ext4): destination with the same 
+identifier (name{section.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.230 \section{Full Model Results}
-                                   (./Mod_Table.tex [19]) [20]pdfTeX warning (e
+l.258 \section{Full Model Results}
+                                   (./Mod_Table.tex [21]) [22]pdfTeX warning (e
 xt4): destination with the same identifier (name{section.2}) has been already u
 sed, duplicate ignored
 <to be read again> 
                    \relax 
-l.235 ... Weights Censored at the 90th Percentile}
+l.263 ... Weights Censored at the 90th Percentile}
                                                   
-<AEZ_effects_q90.png, id=442, 505.89pt x 252.945pt>
+<AEZ_effects_q90.png, id=541, 505.89pt x 252.945pt>
 File: AEZ_effects_q90.png Graphic file (type png)
 <use AEZ_effects_q90.png>
-Package pdftex.def Info: AEZ_effects_q90.png  used on input line 238.
+Package pdftex.def Info: AEZ_effects_q90.png  used on input line 266.
 (pdftex.def)             Requested size: 452.9679pt x 226.48665pt.
  (./Mod_Table_q90.tex
-[21 <./AEZ_effects_q90.png (PNG copy)>] [22]) [23]pdfTeX warning (ext4): destin
+[23 <./AEZ_effects_q90.png (PNG copy)>] [24]) [25]pdfTeX warning (ext4): destin
 ation with the same identifier (name{section.3}) has been already used, duplica
 te ignored
 <to be read again> 
                    \relax 
-l.247 ... Weights Censored at the 80th Percentile}
+l.275 ... Weights Censored at the 80th Percentile}
                                                   
-<AEZ_effects_q80.png, id=457, 505.89pt x 252.945pt>
+<AEZ_effects_q80.png, id=557, 505.89pt x 252.945pt>
 File: AEZ_effects_q80.png Graphic file (type png)
 <use AEZ_effects_q80.png>
-Package pdftex.def Info: AEZ_effects_q80.png  used on input line 250.
+Package pdftex.def Info: AEZ_effects_q80.png  used on input line 278.
 (pdftex.def)             Requested size: 452.9679pt x 226.48665pt.
  (./Mod_Table_q80.tex
-[24 <./AEZ_effects_q80.png (PNG copy)>] [25])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 257.
- [26]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 257.
+[26 <./AEZ_effects_q80.png (PNG copy)>] [27]) [28]pdfTeX warning (ext4): destin
+ation with the same identifier (name{section.4}) has been already used, duplica
+te ignored
+<to be read again> 
+                   \relax 
+l.287 ...vation priorities, with protected areas.}
+                                                  
+<Bivariate_Map_WDPA.png, id=572, 578.16pt x 578.16pt>
+File: Bivariate_Map_WDPA.png Graphic file (type png)
+<use Bivariate_Map_WDPA.png>
+Package pdftex.def Info: Bivariate_Map_WDPA.png  used on input line 291.
+(pdftex.def)             Requested size: 452.9679pt x 452.96558pt.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 298.
+ [29 <./Bivariate_Map_WDPA.png (PNG copy)>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 298.
  (./lc-malnutrition.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 257.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 257.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 298.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 298.
 Package rerunfilecheck Info: File `lc-malnutrition.out' has not changed.
-(rerunfilecheck)             Checksum: 91ED3FD3AB27C1CA0633C69650D706F5;1704.
+(rerunfilecheck)             Checksum: 4D447CF929C41342A029E9174ADA69C4;1754.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 257.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 298.
  ) 
 Here is how much of TeX's memory you used:
- 7517 strings out of 483107
- 118213 string characters out of 5964631
- 404142 words of memory out of 5000000
- 22260 multiletter control sequences out of 15000+600000
- 537546 words of font info for 41 fonts, out of 8000000 for 9000
+ 7781 strings out of 483107
+ 122236 string characters out of 5964631
+ 414720 words of memory out of 5000000
+ 22495 multiletter control sequences out of 15000+600000
+ 537846 words of font info for 42 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 48i,9n,48p,2050b,445s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 48i,9n,48p,2046b,451s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texli
@@ -573,14 +592,15 @@ type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on lc-malnutrition.pdf (26 pages, 3452529 bytes).
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on lc-malnutrition.pdf (29 pages, 5007488 bytes).
 PDF statistics:
- 557 PDF objects out of 1000 (max. 8388607)
- 502 compressed objects within 6 object streams
- 154 named destinations out of 1000 (max. 500000)
- 215 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 668 PDF objects out of 1000 (max. 8388607)
+ 606 compressed objects within 7 object streams
+ 177 named destinations out of 1000 (max. 500000)
+ 228 words of extra memory for PDF output out of 10000 (max. 10000000)
 
