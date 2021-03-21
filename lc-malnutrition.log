@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.9.6)  2 FEB 2021 17:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.9.6)  21 MAR 2021 14:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -105,6 +105,7 @@ Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
 \Hy@SavedSpaceFactor=\count177
 \pdfmajorversion=\count178
+Package hyperref Info: Option `colorlinks' set `true' on input line 4421.
 Package hyperref Info: Hyper figures OFF on input line 4547.
 Package hyperref Info: Link nesting OFF on input line 4552.
 Package hyperref Info: Hyper index ON on input line 4555.
@@ -135,7 +136,7 @@ Package hyperref Info: Hyper figures OFF on input line 6430.
 Package hyperref Info: Link nesting OFF on input line 6435.
 Package hyperref Info: Hyper index ON on input line 6438.
 Package hyperref Info: backreferencing OFF on input line 6445.
-Package hyperref Info: Link coloring OFF on input line 6450.
+Package hyperref Info: Link coloring ON on input line 6448.
 Package hyperref Info: Link coloring with OCG OFF on input line 6455.
 Package hyperref Info: PDF/A mode OFF on input line 6460.
 LaTeX Info: Redefining \ref on input line 6500.
@@ -350,9 +351,241 @@ Package: authblk 2001/02/27 1.3 (PWD)
 \c@authors=\count286
 \c@affil=\count287
 )
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2019/12/01 v3.14 programmable bibliographies (PK/MW)
+
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count288
+)
+(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count289
+
+(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@tabx@nest=\count290
+\c@listtotal=\count291
+\c@listcount=\count292
+\c@liststart=\count293
+\c@liststop=\count294
+\c@citecount=\count295
+\c@citetotal=\count296
+\c@multicitecount=\count297
+\c@multicitetotal=\count298
+\c@instcount=\count299
+\c@maxnames=\count300
+\c@minnames=\count301
+\c@maxitems=\count302
+\c@minitems=\count303
+\c@citecounter=\count304
+\c@maxcitecounter=\count305
+\c@savedcitecounter=\count306
+\c@uniquelist=\count307
+\c@uniquename=\count308
+\c@refsection=\count309
+\c@refsegment=\count310
+\c@maxextratitle=\count311
+\c@maxextratitleyear=\count312
+\c@maxextraname=\count313
+\c@maxextradate=\count314
+\c@maxextraalpha=\count315
+\c@abbrvpenalty=\count316
+\c@highnamepenalty=\count317
+\c@lownamepenalty=\count318
+\c@maxparens=\count319
+\c@parenlevel=\count320
+\blx@tempcnta=\count321
+\blx@tempcntb=\count322
+\blx@tempcntc=\count323
+\blx@maxsection=\count324
+\blx@maxsegment@0=\count325
+\blx@notetype=\count326
+\blx@parenlevel@text=\count327
+\blx@parenlevel@foot=\count328
+\blx@sectionciteorder@0=\count329
+\blx@entrysetcounter=\count330
+\labelnumberwidth=\skip58
+\labelalphawidth=\skip59
+\biblabelsep=\skip60
+\bibitemsep=\skip61
+\bibnamesep=\skip62
+\bibinitsep=\skip63
+\bibparsep=\skip64
+\bibhang=\skip65
+\blx@bcfin=\read2
+\blx@bcfout=\write3
+\blx@langwohyphens=\language7
+\c@mincomprange=\count331
+\c@maxcomprange=\count332
+\c@mincompwidth=\count333
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2019/12/01 v3.14 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'authoryear.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count334
+\c@savedafterword=\count335
+\c@annotator=\count336
+\c@savedannotator=\count337
+\c@author=\count338
+\c@savedauthor=\count339
+\c@bookauthor=\count340
+\c@savedbookauthor=\count341
+\c@commentator=\count342
+\c@savedcommentator=\count343
+\c@editor=\count344
+\c@savededitor=\count345
+\c@editora=\count346
+\c@savededitora=\count347
+\c@editorb=\count348
+\c@savededitorb=\count349
+\c@editorc=\count350
+\c@savededitorc=\count351
+\c@foreword=\count352
+\c@savedforeword=\count353
+\c@holder=\count354
+\c@savedholder=\count355
+\c@introduction=\count356
+\c@savedintroduction=\count357
+\c@namea=\count358
+\c@savednamea=\count359
+\c@nameb=\count360
+\c@savednameb=\count361
+\c@namec=\count362
+\c@savednamec=\count363
+\c@translator=\count364
+\c@savedtranslator=\count365
+\c@shortauthor=\count366
+\c@savedshortauthor=\count367
+\c@shorteditor=\count368
+\c@savedshorteditor=\count369
+\c@labelname=\count370
+\c@savedlabelname=\count371
+\c@institution=\count372
+\c@savedinstitution=\count373
+\c@lista=\count374
+\c@savedlista=\count375
+\c@listb=\count376
+\c@savedlistb=\count377
+\c@listc=\count378
+\c@savedlistc=\count379
+\c@listd=\count380
+\c@savedlistd=\count381
+\c@liste=\count382
+\c@savedliste=\count383
+\c@listf=\count384
+\c@savedlistf=\count385
+\c@location=\count386
+\c@savedlocation=\count387
+\c@organization=\count388
+\c@savedorganization=\count389
+\c@origlocation=\count390
+\c@savedoriglocation=\count391
+\c@origpublisher=\count392
+\c@savedorigpublisher=\count393
+\c@publisher=\count394
+\c@savedpublisher=\count395
+\c@language=\count396
+\c@savedlanguage=\count397
+\c@origlanguage=\count398
+\c@savedoriglanguage=\count399
+\c@pageref=\count400
+\c@savedpageref=\count401
+\shorthandwidth=\skip66
+\shortjournalwidth=\skip67
+\shortserieswidth=\skip68
+\shorttitlewidth=\skip69
+\shortauthorwidth=\skip70
+\shorteditorwidth=\skip71
+\locallabelnumberwidth=\skip72
+\locallabelalphawidth=\skip73
+\localshorthandwidth=\skip74
+\localshortjournalwidth=\skip75
+\localshortserieswidth=\skip76
+\localshorttitlewidth=\skip77
+\localshortauthorwidth=\skip78
+\localshorteditorwidth=\skip79
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
+\c@textcitecount=\count402
+\c@textcitetotal=\count403
+\c@textcitemaxnames=\count404
+\c@biburlbigbreakpenalty=\count405
+\c@biburlbreakpenalty=\count406
+\c@biburlnumpenalty=\count407
+\c@biburlucpenalty=\count408
+\c@biburllcpenalty=\count409
+\biburlbigskip=\muskip17
+\biburlnumskip=\muskip18
+\biburlucskip=\muskip19
+\biburllcskip=\muskip20
+\c@smartand=\count410
+)
+Package biblatex Info: Trying to load natbib compatibility...
+Package biblatex Info: ... file 'blx-natbib.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-natbib.def
+File: blx-natbib.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
+Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined,
+ overwriting.
+)
+Package biblatex Info: Trying to load bibliography style 'authoryear'...
+Package biblatex Info: ... file 'authoryear.bbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/authoryear.bbx
+File: authoryear.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count411
+\c@bbx:relatedtotal=\count412
+))
+Package biblatex Info: Trying to load citation style 'authoryear'...
+Package biblatex Info: ... file 'authoryear.cbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/authoryear.cbx
+File: authoryear.cbx 2019/12/01 v3.14 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+))
+\@quotelevel=\count413
+\@quotereset=\count414
+
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count288
+\l__kernel_color_stack_int=\count415
 \l__pdf_internal_box=\box96
 )
 (./lc-malnutrition.aux
@@ -365,46 +598,63 @@ LaTeX Warning: Label `table:coefficients' multiply defined.
 )
 \openout1 = `lc-malnutrition.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count289
+\scratchcounter=\count416
 \scratchdimen=\dimen184
 \scratchbox=\box97
-\nofMPsegments=\count290
-\nofMParguments=\count291
+\nofMPsegments=\count417
+\nofMParguments=\count418
 \everyMPshowfont=\toks18
-\MPscratchCnt=\count292
+\MPscratchCnt=\count419
 \MPscratchDim=\dimen185
-\MPnumerator=\count293
-\makeMPintoPDFobject=\count294
+\MPnumerator=\count420
+\makeMPintoPDFobject=\count421
 \everyMPtoPDFconversion=\toks19
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box98
-Package hyperref Info: Link coloring OFF on input line 15.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+Package hyperref Info: Link coloring ON on input line 26.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -415,15 +665,15 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count295
+\c@section@level=\count422
 )
-LaTeX Info: Redefining \ref on input line 15.
-LaTeX Info: Redefining \pageref on input line 15.
-LaTeX Info: Redefining \nameref on input line 15.
+LaTeX Info: Redefining \ref on input line 26.
+LaTeX Info: Redefining \pageref on input line 26.
+LaTeX Info: Redefining \nameref on input line 26.
 
 (./lc-malnutrition.out) (./lc-malnutrition.out)
-\@outlinefile=\write3
-\openout3 = `lc-malnutrition.out'.
+\@outlinefile=\write4
+\openout4 = `lc-malnutrition.out'.
 
 
 *geometry* driver: auto-detecting
@@ -466,147 +716,179 @@ Package caption Info: longtable package is loaded.
 Package: ltcaption 2018/08/26 v1.4a longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout3 = `lc-malnutrition.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'lc-malnutrition.bbl' found.
+
+(./lc-malnutrition.bbl)
+Package biblatex Info: Reference section=0 on input line 26.
+Package biblatex Info: Reference segment=0 on input line 26.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 32.
+(Font)              <12> on input line 42.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 32.
+(Font)              <8> on input line 42.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 32.
+(Font)              <6> on input line 42.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
-LaTeX Font Info:    Trying to load font information for OML+cmr on input line 7
-7.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]pdfTeX warning (ext4): dest
+ination with the same identifier (name{page.1}) has been already used, duplicat
+e ignored
+<to be read again> 
+                   \relax 
+l.47 \end{abstract}
+                    [1]pdfTeX warning (ext4): destination with the same identif
+ier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.63 
+      [1] [2]
+LaTeX Font Info:    Trying to load font information for OML+cmr on input line 9
+0.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 77.
- [4]
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 90.
+ [3]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 91.
+(Font)              <7> on input line 104.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 91.
-<AEZ_Sites.png, id=288, 505.89pt x 361.35pt>
+(Font)              <5> on input line 104.
+<AEZ_Sites.png, id=259, 505.89pt x 361.35pt>
 File: AEZ_Sites.png Graphic file (type png)
 <use AEZ_Sites.png>
-Package pdftex.def Info: AEZ_Sites.png  used on input line 109.
+Package pdftex.def Info: AEZ_Sites.png  used on input line 122.
 (pdftex.def)             Requested size: 362.37569pt x 258.84299pt.
- [5 <./AEZ_Sites.png (PNG copy)>] [6] [7]
-<AEZ_effects.png, id=394, 505.89pt x 252.945pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[4] [5 <./AEZ_Sites.png (PNG copy)>] [6]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<AEZ_effects.png, id=349, 505.89pt x 252.945pt>
 File: AEZ_effects.png Graphic file (type png)
 <use AEZ_effects.png>
-Package pdftex.def Info: AEZ_effects.png  used on input line 185.
+Package pdftex.def Info: AEZ_effects.png  used on input line 198.
 (pdftex.def)             Requested size: 452.9679pt x 226.48665pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[7] [8 <./AEZ_effects.png (PNG copy)>]
+<AfricaEffect.png, id=368, 722.7pt x 289.08pt>
+File: AfricaEffect.png Graphic file (type png)
+<use AfricaEffect.png>
+Package pdftex.def Info: AfricaEffect.png  used on input line 215.
+(pdftex.def)             Requested size: 452.9679pt x 181.18622pt.
+<Bivariate_Map.png, id=370, 578.16pt x 578.16pt>
+File: Bivariate_Map.png Graphic file (type png)
+<use Bivariate_Map.png>
+Package pdftex.def Info: Bivariate_Map.png  used on input line 227.
+(pdftex.def)             Requested size: 362.37569pt x 362.37247pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[8]
-<AfricaEffect.png, id=405, 722.7pt x 289.08pt>
-File: AfricaEffect.png Graphic file (type png)
-<use AfricaEffect.png>
-Package pdftex.def Info: AfricaEffect.png  used on input line 202.
-(pdftex.def)             Requested size: 452.9679pt x 181.18622pt.
- [9 <./AEZ_effects.png (PNG copy)> <./AfricaEffect.png (PNG copy)>]
-<Bivariate_Map.png, id=413, 578.16pt x 578.16pt>
-File: Bivariate_Map.png Graphic file (type png)
-<use Bivariate_Map.png>
-Package pdftex.def Info: Bivariate_Map.png  used on input line 214.
-(pdftex.def)             Requested size: 362.37569pt x 362.37247pt.
- [10 <./Bivariate_Map.png (PNG copy)>] [11] [12] (./lc-malnutrition.bbl [13] [1
-4]
-[15] [16] [17] [18] [19] [20])pdfTeX warning (ext4): destination with the same 
-identifier (name{section.1}) has been already used, duplicate ignored
+[9 <./AfricaEffect.png (PNG copy)>] [10 <./Bivariate_Map.png (PNG copy)>]
+[11] [12] [13] [14] [15] [16]pdfTeX warning (ext4): destination with the same i
+dentifier (name{section.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.258 \section{Full Model Results}
-                                   (./Mod_Table.tex [21]) [22]pdfTeX warning (e
-xt4): destination with the same identifier (name{section.2}) has been already u
-sed, duplicate ignored
+l.270 \section{Full Model Results}
+                                   (./Mod_Table.tex [17] [18]) [19]pdfTeX warni
+ng (ext4): destination with the same identifier (name{section.2}) has been alre
+ady used, duplicate ignored
 <to be read again> 
                    \relax 
-l.263 ... Weights Censored at the 90th Percentile}
+l.275 ... Weights Censored at the 90th Percentile}
                                                   
-<AEZ_effects_q90.png, id=532, 505.89pt x 252.945pt>
+<AEZ_effects_q90.png, id=617, 505.89pt x 252.945pt>
 File: AEZ_effects_q90.png Graphic file (type png)
 <use AEZ_effects_q90.png>
-Package pdftex.def Info: AEZ_effects_q90.png  used on input line 266.
+Package pdftex.def Info: AEZ_effects_q90.png  used on input line 278.
 (pdftex.def)             Requested size: 452.9679pt x 226.48665pt.
  (./Mod_Table_q90.tex
-[23 <./AEZ_effects_q90.png (PNG copy)>] [24]) [25]pdfTeX warning (ext4): destin
+[20 <./AEZ_effects_q90.png (PNG copy)>] [21]) [22]pdfTeX warning (ext4): destin
 ation with the same identifier (name{section.3}) has been already used, duplica
 te ignored
 <to be read again> 
                    \relax 
-l.275 ... Weights Censored at the 80th Percentile}
+l.287 ... Weights Censored at the 80th Percentile}
                                                   
-<AEZ_effects_q80.png, id=548, 505.89pt x 252.945pt>
+<AEZ_effects_q80.png, id=632, 505.89pt x 252.945pt>
 File: AEZ_effects_q80.png Graphic file (type png)
 <use AEZ_effects_q80.png>
-Package pdftex.def Info: AEZ_effects_q80.png  used on input line 278.
+Package pdftex.def Info: AEZ_effects_q80.png  used on input line 290.
 (pdftex.def)             Requested size: 452.9679pt x 226.48665pt.
  (./Mod_Table_q80.tex
-[26 <./AEZ_effects_q80.png (PNG copy)>] [27]) [28]pdfTeX warning (ext4): destin
+[23 <./AEZ_effects_q80.png (PNG copy)>] [24]) [25]pdfTeX warning (ext4): destin
 ation with the same identifier (name{section.4}) has been already used, duplica
 te ignored
 <to be read again> 
                    \relax 
-l.287 ...vation priorities, with protected areas.}
+l.299 ...vation priorities, with protected areas.}
                                                   
-<Bivariate_Map_WDPA.png, id=563, 578.16pt x 578.16pt>
+<Bivariate_Map_WDPA.png, id=648, 578.16pt x 578.16pt>
 File: Bivariate_Map_WDPA.png Graphic file (type png)
 <use Bivariate_Map_WDPA.png>
-Package pdftex.def Info: Bivariate_Map_WDPA.png  used on input line 291.
+Package pdftex.def Info: Bivariate_Map_WDPA.png  used on input line 303.
 (pdftex.def)             Requested size: 452.9679pt x 452.96558pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 298.
- [29 <./Bivariate_Map_WDPA.png (PNG copy)>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 298.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 310.
+ [26 <./Bivariate_Map_WDPA.png (PNG copy)>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 310.
  (./lc-malnutrition.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 298.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 298.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 310.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 310.
+Package rerunfilecheck Info: File `lc-malnutrition.out' has not changed.
+(rerunfilecheck)             Checksum: 9612695AE53CA841E3B8BB53BC1563A2;1773.
 
-
-Package rerunfilecheck Warning: File `lc-malnutrition.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `lc-malnutrition.out':
-(rerunfilecheck)             Before: 4D447CF929C41342A029E9174ADA69C4;1754
-(rerunfilecheck)             After:  9612695AE53CA841E3B8BB53BC1563A2;1773.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 298.
+Package logreq Info: Writing requests to 'lc-malnutrition.run.xml'.
+\openout1 = `lc-malnutrition.run.xml'.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 310.
  ) 
 Here is how much of TeX's memory you used:
- 7781 strings out of 483107
- 122236 string characters out of 5964631
- 406720 words of memory out of 5000000
- 22495 multiletter control sequences out of 15000+600000
- 537846 words of font info for 42 fonts, out of 8000000 for 9000
+ 15409 strings out of 483107
+ 275392 string characters out of 5964631
+ 1404812 words of memory out of 5000000
+ 30066 multiletter control sequences out of 15000+600000
+ 537708 words of font info for 42 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 48i,9n,48p,2046b,451s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 48i,9n,53p,3947b,1481s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on lc-malnutrition.pdf (29 pages, 5007549 bytes).
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+s8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on lc-malnutrition.pdf (28 pages, 5016485 bytes).
 PDF statistics:
- 658 PDF objects out of 1000 (max. 8388607)
- 597 compressed objects within 6 object streams
- 177 named destinations out of 1000 (max. 500000)
+ 742 PDF objects out of 1000 (max. 8388607)
+ 681 compressed objects within 7 object streams
+ 174 named destinations out of 1000 (max. 500000)
  228 words of extra memory for PDF output out of 10000 (max. 10000000)
 

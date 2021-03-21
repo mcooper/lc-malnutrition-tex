@@ -1,52 +1,42 @@
-This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
-Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
-The top-level auxiliary file: lc-malnutrition.aux
-The style file: apalike.bst
-Database file #1: library.bib
-Warning--empty institution in Defourny2017
-Warning--empty booktitle in Duchon1977
-Warning--empty publisher in Duchon1977
-Warning--empty publisher in Wani2009
-Warning--empty publisher in Wood2017
-You've used 111 entries,
-            1935 wiz_defined-function locations,
-            1100 strings with 43768 characters,
-and the built_in function-call counts, 67645 in all, are:
-= -- 5685
-> -- 6186
-< -- 41
-+ -- 2355
-- -- 2348
-* -- 6956
-:= -- 12579
-add.period$ -- 316
-call.type$ -- 111
-change.case$ -- 1724
-chr.to.int$ -- 110
-cite$ -- 116
-duplicate$ -- 1486
-empty$ -- 2664
-format.name$ -- 2497
-if$ -- 12053
-int.to.chr$ -- 2
-int.to.str$ -- 0
-missing$ -- 95
-newline$ -- 541
-num.names$ -- 333
-pop$ -- 1592
-preamble$ -- 1
-purify$ -- 1723
-quote$ -- 0
-skip$ -- 1148
-stack$ -- 0
-substring$ -- 2514
-swap$ -- 121
-text.length$ -- 5
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 662
-warning$ -- 5
-while$ -- 318
-width$ -- 0
-write$ -- 1358
-(There were 5 warnings)
+[0] Config.pm:304> INFO - This is Biber 2.14 (beta)
+[0] Config.pm:307> INFO - Logfile is 'lc-malnutrition.blg'
+[80] biber:322> INFO - === Sun Mar 21, 2021, 12:25:31
+[95] Biber.pm:415> INFO - Reading 'lc-malnutrition.bcf'
+[161] Biber.pm:943> INFO - Found 111 citekeys in bib section 0
+[172] Biber.pm:4256> INFO - Processing section 0
+[173] Utils.pm:75> INFO - Globbing data source 'library.bib'
+[173] Utils.pm:91> INFO - Globbed data source 'library.bib' to library.bib
+[182] Biber.pm:4455> INFO - Looking for bibtex format file 'library.bib' for section 0
+[375] bibtex.pm:1653> INFO - LaTeX decoding ...
+[3859] bibtex.pm:1471> INFO - Found BibTeX data source 'library.bib'
+[4164] Utils.pm:293> WARN - ISBN '0168-1923' in entry 'Lott2009' is invalid - run biber with '--validate_datamodel' for details.
+[4175] Utils.pm:293> WARN - ISBN '1461-0248' in entry 'Karp2013' is invalid - run biber with '--validate_datamodel' for details.
+[4213] Utils.pm:293> WARN - ISBN '1389-9341, 1389-9341' in entry 'Assogbadjo2012' is invalid - run biber with '--validate_datamodel' for details.
+[4223] Utils.pm:293> WARN - ISBN '0027-8424' in entry 'Golden2011' is invalid - run biber with '--validate_datamodel' for details.
+[4275] Utils.pm:293> WARN - ISBN '1389-9341' in entry 'Robledo2012' is invalid - run biber with '--validate_datamodel' for details.
+[4285] Utils.pm:293> WARN - ISBN '0305-750X' in entry 'Wunder2014' is invalid - run biber with '--validate_datamodel' for details.
+[4300] Utils.pm:293> WARN - ISBN '0959-3780' in entry 'Ickowitz2014' is invalid - run biber with '--validate_datamodel' for details.
+[4522] Utils.pm:293> WARN - ISBN '2151-3732$\backslash$r2151-3740' in entry 'Martinez-Harms2012' is invalid - run biber with '--validate_datamodel' for details.
+[4540] Utils.pm:293> WARN - ISBN '0027-8424' in entry 'Raudsepp-Hearne2010' is invalid - run biber with '--validate_datamodel' for details.
+[4600] Utils.pm:293> WARN - ISBN '0264-8377' in entry 'Wily2008' is invalid - run biber with '--validate_datamodel' for details.
+[4615] Utils.pm:293> WARN - ISBN '1389-9341' in entry 'Coulibaly-Lingani2009' is invalid - run biber with '--validate_datamodel' for details.
+[4626] Utils.pm:293> WARN - ISBN '0305-750X' in entry 'Pouliot2013' is invalid - run biber with '--validate_datamodel' for details.
+[4663] Utils.pm:293> WARN - ISBN '0300-7839' in entry 'Laris2008' is invalid - run biber with '--validate_datamodel' for details.
+[4779] Utils.pm:293> WARN - ISBN '0140-6736 (Print)$\backslash$r0140-6736 (Linking)' in entry 'Habicht1974' is invalid - run biber with '--validate_datamodel' for details.
+[4805] Utils.pm:293> WARN - ISBN '0034-4257' in entry 'Funk2015' is invalid - run biber with '--validate_datamodel' for details.
+[4815] Utils.pm:293> WARN - ISBN '08948755 (ISSN)' in entry 'Sheffield2006' is invalid - run biber with '--validate_datamodel' for details.
+[4823] Utils.pm:293> WARN - ISBN '0044-7978' in entry 'Hargreaves1982' is invalid - run biber with '--validate_datamodel' for details.
+[4836] Utils.pm:293> WARN - ISBN '1097-0088' in entry 'Begueria2014' is invalid - run biber with '--validate_datamodel' for details.
+[4914] Utils.pm:293> WARN - ISBN '0143-6228' in entry 'Grace2012' is invalid - run biber with '--validate_datamodel' for details.
+[4998] Utils.pm:293> WARN - ISBN '2052-4463 (Electronic) 2052-4463 (Linking)' in entry 'Tatem2017' is invalid - run biber with '--validate_datamodel' for details.
+[5028] Utils.pm:293> WARN - ISBN '09593780' in entry 'Carrao2016' is invalid - run biber with '--validate_datamodel' for details.
+[5043] Utils.pm:293> WARN - ISBN '1877-3435' in entry 'Meyfroidt2013' is invalid - run biber with '--validate_datamodel' for details.
+[5917] Utils.pm:293> WARN - month field 'May' in entry 'cooper2017vs' is not an integer - this will probably not sort properly.
+[5952] Utils.pm:293> WARN - BibTeX subsystem: /tmp/biber_tmp_ukgB/library.bib_8588.utf8, line 6, warning: 172 characters of junk seen at toplevel
+[6232] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[6232] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[6232] Biber.pm:4084> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[6232] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[6403] bbl.pm:652> INFO - Writing 'lc-malnutrition.bbl' with encoding 'UTF-8'
+[9481] bbl.pm:755> INFO - Output to lc-malnutrition.bbl
+[9481] Biber.pm:128> INFO - WARNINGS: 24
